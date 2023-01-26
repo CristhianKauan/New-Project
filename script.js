@@ -1,23 +1,27 @@
 
+var c=2
 
 function  ocultar(){
-  var c = 2
-  var icons = document.getElementById('icons')
-  if (c/2==1) {
 
-   
+  var icons = document.getElementById('navegacao')
+
+  if (c%2==0) {
+
+    icons.classList.add('esconder')
     icons.classList.remove('mostrar')
-    icons.classList.add('ocultar')
-    
-    c=c+1
 
-} else {
 
-    icons.classList.remove('ocultar')
-    icons.classList.add('mostrar')
+} 
 
-    c=c+1
-    
+else {
+
+  icons.classList.remove('esconder')
+  icons.classList.add('mostrar')
+
+} 
+c++
 }
 
-}
+
+
+
