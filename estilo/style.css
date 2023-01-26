@@ -17,7 +17,7 @@ body{
 
 header{
     background:#e65550 ;
-    width: 100vw;
+    width: 100%;
     height: 100px;
     color: white;
 }
@@ -27,49 +27,52 @@ header>h1{
     margin: 30px;
 }
 
-header>div#menu>a{
+header>span#menu>a{
     text-decoration: none;
     color: white;
-    margin-left: 50px;
     background-color:#B3423E;
     padding: 15px;
     border-radius: 5px;
+    margin-left: 10px;
+    
+    
 }
 
-header>div#menu>a:hover{
+header>span#menu{
+    display:inline-block;
+    font-size: 1em;
+
+
+    
+}
+
+header>span#menu>a:hover{
     background-color: #700D09;
 }
 
-div#menu{
 
-    display: inline-block;
-    margin-left: 1000px;
-}
 
 section#conteudo{
     position: relative;
-    width: 100vw;
     z-index: 333;
     
 }
 
-p#liao{
-    font-size: 5em;
-}
+
 
 main>h1{
-    font-size: 3vw;
+    font-size: 3.2em;
 }
 
 main>h2{
-    font-size: 0.8vw;
+    font-size: 1em;
     font-style: italic;
     font-weight: normal;
 }
 main{
     display: block;
     background-color: rgb(255, 255, 255);
-    width: 1000px;
+    width: 53vw;
     padding: 30px;
     position: relative;
     z-index: 444;
@@ -77,14 +80,20 @@ main{
     margin-right: auto;
 
 }
+
+main>p{
+    font-size: 1.5em;
+    text-align: justify;
+    margin-bottom: 20px;
+}
 p#curiosidade{
     display: inline-block;
-    width: 300px;
-    transform: translateY(-550px);
-    margin-left: 10px;
+
+
+    margin-left: 20px;
     color: #700D09;
     text-align: justify;
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: bold;
 }
 
@@ -92,9 +101,16 @@ main>h1,h2{
     color: #B3423E;
 }
 p#p1,p#p2,p#p3{
-    width: 400px ;
+
     display: inline-block;
-    font-size: 1.5em;
+
+}
+
+p#p1{
+   
+}
+p#p2{
+
 }
 footer{
     background:#E65550 ;
@@ -109,24 +125,21 @@ footer{
 
 img{
     border-radius: 10px;
-    width: 430px;
+    width: 400px;
     display: inline-block;
 }
 
 img#secundaria{
     display: inline-block;
-    width: 450px;
-    transform: translate(450px,-335px);
+    width: 400px;
+
 }
 
 div.pi{
     width: 100px;
     height: 40px;
-
     background-color: #B3423E;
-
     text-align: center;
-    vertical-align: middle;
     color: rgba(255, 255, 255, 0.479);
     font-size: 2em;
 }
@@ -137,11 +150,10 @@ div.val{
     height: 80;
     text-align: center;
     background-color: rgb(255, 255, 255);
-    margin-left: 15px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.205);
     border-radius: 10px;
     color: #700D09;
-    transform: translate(500px, -60px);
+
 }
 
 div#navegacao.mostrar{
@@ -155,7 +167,7 @@ div#navegacao.mostrar{
     z-index: 000;
     transition: 1s;
     text-align: center;
-    margin-left: 90vw;
+    align-self: center;
     overflow: scroll;
 }
 
@@ -169,7 +181,7 @@ div#navegacao.esconder{
     position: absolute;
     text-align: center;
     transition: 1s;
-    margin-left: 90vw;
+    align-self: center;
     overflow: hidden;
 }
 
@@ -219,11 +231,9 @@ span#menu:hover{
 }
 
 div#fixed{
-    position: fixed;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    position: relative;
+
 
 }
 
-img#raposa{
-    margin-top: 70px;
-}

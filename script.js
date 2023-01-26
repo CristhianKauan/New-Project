@@ -1,5 +1,5 @@
 
-var c=2
+var c=1
 
 function  ocultar(){
 
