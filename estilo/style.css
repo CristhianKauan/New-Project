@@ -15,10 +15,10 @@ body{
   }
 
 header{
-    background:#e65550 ;
+    background:#7DE65E ;
     width: 100%;
     height: 100px;
-    color: white;
+    color: #437533;
 }
 
 header>h1{
@@ -29,10 +29,11 @@ header>h1{
 header>span#menu>a{
     text-decoration: none;
     color: white;
-    background-color:#B3423E;
+    background-color:#599946;
     padding: 15px;
     border-radius: 5px;
     margin-left: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);
 }
 
 header>span#menu{
@@ -41,7 +42,7 @@ header>span#menu{
 }
 
 header>span#menu>a:hover{
-    background-color: #700D09;
+    background-color: #82df66;
 }
 
 section#conteudo{
@@ -80,13 +81,16 @@ main>p{
 p#curiosidade{
     position: absolute;
     z-index: 111;
+    background-color: rgba(0, 255, 255, 0.247);
+    border-radius: 15px;
+    padding: 15px;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 5px;
     color: #700D09;
     text-align: justify;
     width:230px;
     vertical-align: top;
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: bold;
 }
 
@@ -164,6 +168,7 @@ div#navegacao.mostrar{
     text-align: center;
     align-self: center;
     overflow: scroll;
+    margin-left: 1300px;
 }
 
 div#navegacao.esconder{
@@ -178,6 +183,7 @@ div#navegacao.esconder{
     transition: 1s;
     align-self: center;
     overflow: hidden;
+    margin-left: 1300px;
 }
 
 div#navegacao>img.icons{
@@ -198,13 +204,32 @@ img.icons:hover{
 }
 
 div#tabela{
-    width: 500px;
+    width: 300px;
     text-align: center;
-    text-decoration: underline;
+    display: inline-block;
     color: white;
     background-color: #B3423E;
     font-size: 1.7em;
     border-radius: 15px;
+    vertical-align: top;
+    margin-bottom: 15px;
+}
+
+div#tabela>p{
+    font-size: .6em;
+    padding: 30px;
+   font-family: 'Courier New', Courier, monospace;
+   display: inline-block;
+
+   
+}
+
+p#p3{
+    width: 276px;
+    display: inline-block;
+    font-size: 1.2em;
+    margin-left: 20px;
+
 }
 
 span#menu{
@@ -224,3 +249,6 @@ div#fixed{
     position: relative;
 }
 
+img#final{
+    width: 600px;
+}
