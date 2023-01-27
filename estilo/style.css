@@ -51,12 +51,15 @@ section#conteudo{
 
 main>h1{
     font-size: 3.2em;
+    display: inline-block;
 }
 
 main>h2{
     font-size: 1em;
     font-style: italic;
     font-weight: normal;
+    margin-bottom: 20px;
+
 }
 main{
     display: block;
@@ -75,10 +78,14 @@ main>p{
     margin-bottom: 20px;
 }
 p#curiosidade{
+    position: absolute;
+    z-index: 111;
     display: inline-block;
     margin-left: 20px;
     color: #700D09;
     text-align: justify;
+    width:230px;
+    vertical-align: top;
     font-size: 1em;
     font-weight: bold;
 }
@@ -105,13 +112,17 @@ footer{
 
 img{
     border-radius: 10px;
-    width: 400px;
+    width: 350px;
     display: inline-block;
 }
 
 img#secundaria{
     display: inline-block;
-    width: 400px;
+    width: 235px;
+    position: relative;
+    z-index: 444;
+    margin-left: 10px;
+
 }
 
 div.pi{
@@ -127,17 +138,23 @@ div.val{
     display: inline-block;
     width: 100px;
     height: 80;
+    margin-left: 10px;
     text-align: center;
     background-color: rgb(255, 255, 255);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.205);
     border-radius: 10px;
     color: #700D09;
+
+}
+
+span#agepeso{
+    margin-left: 200px;
 }
 
 div#navegacao.mostrar{
    display: inline-block;
     height: 800px;
-    width: 180px;
+    width: 100px;
     opacity: 1;
     background-color: #700D09;
     border-radius: 0px 0px 15px 15px;
@@ -152,7 +169,7 @@ div#navegacao.mostrar{
 div#navegacao.esconder{
     display: block;
     height: 60px;
-    width: 180px;
+    width: 100px;
     opacity: 1;
     background-color: #700D09;
     border-radius: 0px 0px 50% 50%;
@@ -168,8 +185,8 @@ div#navegacao>img.icons{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
-    width: 130px;
-    height: 130px;
+    width: 70px;
+    height: 70px;
     position: relative;
     opacity: 1;
     transition: 0.3s;
