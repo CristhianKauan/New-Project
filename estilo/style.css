@@ -11,8 +11,6 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-
-    
   }
 
 header{
@@ -34,31 +32,21 @@ header>span#menu>a{
     padding: 15px;
     border-radius: 5px;
     margin-left: 10px;
-    
-    
 }
 
 header>span#menu{
     display:inline-block;
     font-size: 1em;
-
-
-    
 }
 
 header>span#menu>a:hover{
     background-color: #700D09;
 }
 
-
-
 section#conteudo{
     position: relative;
     z-index: 333;
-    
 }
-
-
 
 main>h1{
     font-size: 3.2em;
@@ -72,13 +60,12 @@ main>h2{
 main{
     display: block;
     background-color: rgb(255, 255, 255);
-    width: 53vw;
+    width: 550px;
     padding: 30px;
     position: relative;
     z-index: 444;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 main>p{
@@ -88,8 +75,6 @@ main>p{
 }
 p#curiosidade{
     display: inline-block;
-
-
     margin-left: 20px;
     color: #700D09;
     text-align: justify;
@@ -106,12 +91,6 @@ p#p1,p#p2,p#p3{
 
 }
 
-p#p1{
-   
-}
-p#p2{
-
-}
 footer{
     background:#E65550 ;
     width: 100vw;
@@ -132,7 +111,6 @@ img{
 img#secundaria{
     display: inline-block;
     width: 400px;
-
 }
 
 div.pi{
@@ -153,7 +131,6 @@ div.val{
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.205);
     border-radius: 10px;
     color: #700D09;
-
 }
 
 div#navegacao.mostrar{
@@ -185,9 +162,6 @@ div#navegacao.esconder{
     overflow: hidden;
 }
 
-
-
-
 div#navegacao>img.icons{
     display: block;
     margin-left: auto;
@@ -198,9 +172,7 @@ div#navegacao>img.icons{
     position: relative;
     opacity: 1;
     transition: 0.3s;
-
 }
-
 
 img.icons:hover{
     scale: 1.2;
@@ -209,20 +181,19 @@ img.icons:hover{
 
 div#tabela{
     width: 500px;
-    
     text-align: center;
     text-decoration: underline;
     color: white;
     background-color: #B3423E;
     font-size: 1.7em;
     border-radius: 15px;
-
 }
 
 span#menu{
-    color: black;
-    font-size: 2em;
-
+    color: rgb(10, 151, 5);
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    margin-top: 30px;
 }
 
 span#menu:hover{
@@ -233,7 +204,5 @@ span#menu:hover{
 div#fixed{
     margin-top: 30px;
     position: relative;
-
-
 }
 
