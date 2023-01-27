@@ -15,10 +15,10 @@ body{
   }
 
 header{
-    background:#7DE65E ;
+   background:#E68750;
     width: 100%;
     height: 100px;
-    color: #437533;
+    color: #ffffff;
 }
 
 header>h1{
@@ -29,7 +29,7 @@ header>h1{
 header>span#menu>a{
     text-decoration: none;
     color: white;
-    background-color:#599946;
+    background-color:#774E99;
     padding: 15px;
     border-radius: 5px;
     margin-left: 10px;
@@ -42,7 +42,7 @@ header>span#menu{
 }
 
 header>span#menu>a:hover{
-    background-color: #82df66;
+    background-color: #AD6AE6;
 }
 
 section#conteudo{
@@ -160,7 +160,7 @@ div#navegacao.mostrar{
     height: 800px;
     width: 100px;
     opacity: 1;
-    background-color: #700D09;
+    background-color: #774E99;
     border-radius: 0px 0px 15px 15px;
     position: absolute;
     z-index: 000;
@@ -168,7 +168,7 @@ div#navegacao.mostrar{
     text-align: center;
     align-self: center;
     overflow: scroll;
-    margin-left: 1300px;
+
 }
 
 div#navegacao.esconder{
@@ -176,14 +176,14 @@ div#navegacao.esconder{
     height: 60px;
     width: 100px;
     opacity: 1;
-    background-color: #700D09;
+    background-color: #774E99;
     border-radius: 0px 0px 50% 50%;
     position: absolute;
     text-align: center;
     transition: 1s;
     align-self: center;
     overflow: hidden;
-    margin-left: 1300px;
+
 }
 
 div#navegacao>img.icons{
