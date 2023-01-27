@@ -4,21 +4,26 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 
 body{
     font-family: 'Volkorn', Georgia, serif;
-    background: black url(../imagens/1\ \(1\).jpg);
+    background: black url(../imagens/back\ \(1\).jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
 
 header{
-   background:#E68750;
+   background:#993D3D;
+   background-size: cover;
     width: 100%;
     height: 100px;
     color: #ffffff;
+    position: relative;
+    z-index: 000;
+
 }
 
 header>h1{
@@ -29,9 +34,9 @@ header>h1{
 header>span#menu>a{
     text-decoration: none;
     color: white;
-    background-color:#774E99;
-    padding: 15px;
-    border-radius: 5px;
+    background-color:#662929;
+    padding: 10px;
+    border-radius: 10px;
     margin-left: 10px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);
 }
@@ -42,7 +47,10 @@ header>span#menu{
 }
 
 header>span#menu>a:hover{
-    background-color: #AD6AE6;
+    background-color: #3b1818;
+
+    transition: .5s ease;
+
 }
 
 section#conteudo{
@@ -81,12 +89,12 @@ main>p{
 p#curiosidade{
     position: absolute;
     z-index: 111;
-    background-color: rgba(0, 255, 255, 0.247);
+    background-color: #ca535391;
     border-radius: 15px;
     padding: 15px;
     display: inline-block;
     margin-left: 5px;
-    color: #700D09;
+    color: #662929;
     text-align: justify;
     width:230px;
     vertical-align: top;
@@ -95,7 +103,7 @@ p#curiosidade{
 }
 
 main>h1,h2{
-    color: #B3423E;
+    color: #662929;
 }
 p#p1,p#p2,p#p3{
 
@@ -104,9 +112,9 @@ p#p1,p#p2,p#p3{
 }
 
 footer{
-    background:#E65550 ;
+    background:#376666 ;
     width: 100vw;
-    color: white;
+    color: #2BB3B3;
     text-align: center;
 }
 
@@ -160,7 +168,7 @@ div#navegacao.mostrar{
     height: 800px;
     width: 100px;
     opacity: 1;
-    background-color: #774E99;
+    background-color: #662929;
     border-radius: 0px 0px 15px 15px;
     position: absolute;
     z-index: 000;
@@ -176,7 +184,7 @@ div#navegacao.esconder{
     height: 60px;
     width: 100px;
     opacity: 1;
-    background-color: #774E99;
+    background-color: #662929;
     border-radius: 0px 0px 50% 50%;
     position: absolute;
     text-align: center;
@@ -233,7 +241,7 @@ p#p3{
 }
 
 span#menu{
-    color: rgb(10, 151, 5);
+    color: black;
     font-size: 2.5em;
     margin-bottom: 10px;
     margin-top: 30px;
