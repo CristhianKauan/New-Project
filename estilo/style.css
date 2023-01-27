@@ -136,7 +136,7 @@ div.val{
 div#navegacao.mostrar{
    display: inline-block;
     height: 800px;
-    width: 120px;
+    width: 160px;
     opacity: 1;
     background-color: #700D09;
     border-radius: 0px 0px 15px 15px;
@@ -151,7 +151,7 @@ div#navegacao.mostrar{
 div#navegacao.esconder{
     display: block;
     height: 60px;
-    width: 120px;
+    width: 160px;
     opacity: 1;
     background-color: #700D09;
     border-radius: 0px 0px 50% 50%;
