@@ -60,7 +60,7 @@ main>h2{
 main{
     display: block;
     background-color: rgb(255, 255, 255);
-    width: 650px;
+    width: 850px;
     padding: 30px;
     position: relative;
     z-index: 444;
@@ -136,7 +136,7 @@ div.val{
 div#navegacao.mostrar{
    display: inline-block;
     height: 800px;
-    width: 160px;
+    width: 180px;
     opacity: 1;
     background-color: #700D09;
     border-radius: 0px 0px 15px 15px;
@@ -151,7 +151,7 @@ div#navegacao.mostrar{
 div#navegacao.esconder{
     display: block;
     height: 60px;
-    width: 160px;
+    width: 180px;
     opacity: 1;
     background-color: #700D09;
     border-radius: 0px 0px 50% 50%;
