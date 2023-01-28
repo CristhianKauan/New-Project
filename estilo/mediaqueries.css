@@ -1,16 +1,19 @@
 @charset "UTF-8";
 @media screen and (max-width:1000px){
     div#navegacao.mostrar{
-        display: inline-block;
          height: 85vh;
-         width: 100px;
-         opacity: 1;
-         position: absolute;
-         z-index: 000;
-         transition: 1s;
-         text-align: center;
-         align-self: center;
-         overflow: scroll;
+         width: 110px;
      
      }
+
+     main{
+        display: block;
+        background-color: rgb(255, 255, 255);
+        width: 800px;
+        padding: 30px;
+        position: relative;
+        z-index: 444;
+        margin-left: 110px;
+        margin-right: auto;
+    }
 }
