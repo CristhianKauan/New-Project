@@ -60,11 +60,13 @@ header>span#menu>a:hover{
 
 }
 
-section#conteudo{
-    position: relative;
-    z-index: 333;
+main{
+    display:inline-block;
+    width: 900px;
+    padding: 30px;
+    background-color: white;
+    overflow: hidden;
 }
-
 main>section>h1{
     font-size: 3.2em;
     display: inline-block;
@@ -77,31 +79,6 @@ main>section>h2{
     margin-bottom: 20px;
 
 }
-main>section{
-    display: block;
-    background-color: rgb(255, 255, 255);
-    width: 900px;
-    padding: 30px;
-    position: relative;
-    z-index: 444;
-    margin-left: auto;
-    margin-right: auto;
-    background-position: bottom;
-    background-repeat: no-repeat;
-
-}
- img#axol{
-    width: 70px;
-    position: absolute;
-    margin-left: 515px;
-    margin-top: 70px;
- }
-
- img#axol::selection{
-    margin-left: 0px;
-
-    transition: 0.5s ease-in-out;
- }
 
 main>section>p{
     font-size: 1.2em;
@@ -109,30 +86,52 @@ main>section>p{
     margin-bottom: 20px;
     line-height: 2em;
 }
-p#curiosidade{
-    position: absolute;
-    z-index: 111;
-    background-color: #ca535391;
-    border-radius: 15px;
-    padding: 30px;
-    display: inline-block;
-    margin-left: 30px;
-    margin-top: 5px;
-    color: #662929;
-    text-align: justify;
-    width:430px;
-    vertical-align: top;
-    font-size: 0.8em;
-    font-weight: bold;
-}
 
 main>section>h1,h2{
     color: #662929;
 }
+
+section.ativo{
+    opacity: 1;
+    transition: 1s;
+}
+
+
+
+section.desativo{
+    opacity: 1;
+    transition: width 2s, height 2s, opacity 3s;
+    overflow: hidden;
+    height: 0px;
+}
+
+
 p#p1,p#p2,p#p3{
 
     display: inline-block;
 
+}
+
+div#grid{
+    display: inline-block;
+    width: 540px;
+    height: 525px;
+    vertical-align: top;
+
+}
+
+p#curiosidade{
+    background-color: #ca535391;
+    border-radius: 15px;
+    padding: 30px;
+    display: block;
+    margin-left: 15px;
+    margin-top: 40px;
+    color: #662929;
+    text-align: justify;
+    width:470px;
+    font-size: 0.8em;
+    font-weight: bold;
 }
 
 footer{
@@ -162,12 +161,11 @@ img#secundaria{
 }
 video#secundaria{
     display: inline-block;
-    width: 530px;
-    position: relative;
-    z-index: 444;
+    width: 540px;
+    vertical-align: top;
     margin-left: 10px;
     border-radius: 10px;
-
+    margin-top: 60px;
 }
 
 div.pi{
@@ -192,8 +190,8 @@ div.val{
 
 }
 
-span#agepeso{
-    margin-left: 450px;
+span.agepeso{
+margin-left: 25em;
 }
 
 div#navegacao.mostrar{
@@ -203,38 +201,33 @@ div#navegacao.mostrar{
     opacity: 1;
     background-color: #662929;
     border-radius: 0px 0px 15px 15px;
-    position: absolute;
-    z-index: 000;
     transition: 1s;
     text-align: center;
     align-self: center;
     overflow: scroll;
-
+    vertical-align: top;
 }
 
 div#navegacao.esconder{
-    display: block;
+    display: inline-block;
     height: 60px;
     width: 100px;
     opacity: 1;
     background-color: #662929;
     border-radius: 0px 0px 50% 50%;
-    position: absolute;
+    overflow: hidden;
     text-align: center;
     transition: 1s;
-    align-self: center;
-    overflow: hidden;
-
+    vertical-align: top;
 }
 
 div#navegacao>img.icons{
-    display: block;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
     width: 70px;
     height: 70px;
-    position: relative;
     opacity: 1;
     transition: 0.3s;
 }
@@ -270,8 +263,6 @@ p#p3{
     width: 450px;
     display: inline-block;
     margin-left: 20px;
-    position: absolute;
-    z-index: 111;
     font-size: 1.1em;
 }
 
@@ -287,25 +278,8 @@ span#menu:hover{
     cursor: pointer;
 }
 
-div#fixed{
-    margin-top: 30px;
-    position: relative;
-}
-
-span#final>img{
-    width: 400px;
-    margin-left: 40px;
-    margin-bottom: 20px;
-    display: inline-block;
-    position: relative;
-    z-index: 444;
-    vertical-align: bottom;
-
-}
-
 iframe{
-margin-left: 180px;
-
-border-radius: 15px;
-}
-
+    margin-left: 180px;
+    border-radius: 15px;
+    }
+    
