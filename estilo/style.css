@@ -65,19 +65,19 @@ section#conteudo{
     z-index: 333;
 }
 
-main>h1{
+main>section>h1{
     font-size: 3.2em;
     display: inline-block;
 }
 
-main>h2{
+main>section>h2{
     font-size: 1em;
     font-style: italic;
     font-weight: normal;
     margin-bottom: 20px;
 
 }
-main{
+main>section{
     display: block;
     background-color: rgb(255, 255, 255);
     width: 900px;
@@ -86,11 +86,24 @@ main{
     z-index: 444;
     margin-left: auto;
     margin-right: auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
 
-    
 }
+ img#axol{
+    width: 70px;
+    position: absolute;
+    margin-left: 515px;
+    margin-top: 70px;
+ }
 
-main>p{
+ img#axol::selection{
+    margin-left: 0px;
+
+    transition: 0.5s ease-in-out;
+ }
+
+main>section>p{
     font-size: 1.2em;
     text-align: justify;
     margin-bottom: 20px;
@@ -104,7 +117,7 @@ p#curiosidade{
     padding: 30px;
     display: inline-block;
     margin-left: 30px;
-    margin-top: 15px;
+    margin-top: 5px;
     color: #662929;
     text-align: justify;
     width:430px;
@@ -113,7 +126,7 @@ p#curiosidade{
     font-weight: bold;
 }
 
-main>h1,h2{
+main>section>h1,h2{
     color: #662929;
 }
 p#p1,p#p2,p#p3{
@@ -147,6 +160,15 @@ img#secundaria{
     margin-left: 10px;
 
 }
+video#secundaria{
+    display: inline-block;
+    width: 530px;
+    position: relative;
+    z-index: 444;
+    margin-left: 10px;
+    border-radius: 10px;
+
+}
 
 div.pi{
     width: 100px;
@@ -171,7 +193,7 @@ div.val{
 }
 
 span#agepeso{
-    margin-left: 500px;
+    margin-left: 450px;
 }
 
 div#navegacao.mostrar{
