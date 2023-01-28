@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media screen and (max-width:1000px){
+@media screen and (max-width:768px){
     div#navegacao.mostrar{
          height: 85vh;
          width: 110px;
@@ -7,13 +7,24 @@
      }
 
      main{
-        display: block;
-        background-color: rgb(255, 255, 255);
         width: 800px;
-        padding: 30px;
-        position: relative;
-        z-index: 444;
-        margin-left: 110px;
-        margin-right: auto;
+
+    }
+
+    div#navegacao.esconder{
+        width: 110px;
+    }
+
+    header>span#menu{
+
+        width: 700PX;
+        text-align: right;
+
+    }
+
+    div#navegacao>img.icons{
+        width: 70px;
+        height: 70px;
+
     }
 }
