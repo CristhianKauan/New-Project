@@ -20,7 +20,7 @@ header{
    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 100vw;
     height: 100px;
     color: #ffffff;
     position: relative;

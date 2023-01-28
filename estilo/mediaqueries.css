@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media screen and (max-width:768px){
+@media screen and (max-width:1000px){
     div#navegacao.mostrar{
          height: 85vh;
          width: 110px;
@@ -7,7 +7,7 @@
      }
 
      main{
-        width: 800px;
+        width: 350px;
 
     }
 
