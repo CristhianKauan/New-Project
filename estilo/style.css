@@ -46,7 +46,7 @@ header>span#menu>a{
 header>span#menu{
     display:inline-block;
     font-size: 1em;
-    width: 80vw;
+    width: 1100PX;
     text-align: right;
     cursor: default;
 }
