@@ -48,7 +48,7 @@ header>span#menu>a{
 header>span#menu{
     display:inline-block;
     font-size: 1em;
-    width: 1100PX;
+    width: 1600PX;
     text-align: right;
     cursor: default;
 }
@@ -80,7 +80,7 @@ main>h2{
 main{
     display: block;
     background-color: rgb(255, 255, 255);
-    width: 600px;
+    width: 900px;
     padding: 30px;
     position: relative;
     z-index: 444;
@@ -98,12 +98,13 @@ p#curiosidade{
     z-index: 111;
     background-color: #ca535391;
     border-radius: 15px;
-    padding: 15px;
+    padding: 30px;
     display: inline-block;
-    margin-left: 5px;
+    margin-left: 30px;
+    margin-top: 15px;
     color: #662929;
     text-align: justify;
-    width:230px;
+    width:430px;
     vertical-align: top;
     font-size: 0.8em;
     font-weight: bold;
@@ -137,7 +138,7 @@ img{
 
 img#secundaria{
     display: inline-block;
-    width: 215px;
+    width: 530px;
     position: relative;
     z-index: 444;
     margin-left: 10px;
@@ -167,7 +168,7 @@ div.val{
 }
 
 span#agepeso{
-    margin-left: 200px;
+    margin-left: 500px;
 }
 
 div#navegacao.mostrar{
@@ -219,7 +220,7 @@ img.icons:hover{
 }
 
 div#tabela{
-    width: 300px;
+    width: 400px;
     text-align: center;
     display: inline-block;
     color: white;
@@ -240,9 +241,9 @@ div#tabela>p{
 }
 
 p#p3{
-    width: 256px;
+    width: 450px;
     display: inline-block;
-    font-size: 1.2em;
+
     margin-left: 20px;
 
 }
@@ -264,6 +265,7 @@ div#fixed{
     position: relative;
 }
 
-img#final{
-    width: 600px;
+span#final>img{
+    width: 430px;
+    margin-left: 10px;
 }
