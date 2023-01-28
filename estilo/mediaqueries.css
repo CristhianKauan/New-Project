@@ -27,4 +27,17 @@
         height: 70px;
 
     }
+    img#secundaria{
+        width: 400px;
+    }
+
+    p#curiosidade{
+
+        width:415px;
+
+    }
+
+    span#agepeso{
+        margin-left: 300px;
+    }
 }
