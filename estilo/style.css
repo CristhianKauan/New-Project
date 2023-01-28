@@ -25,17 +25,12 @@ header{
     width: 100vw;
     height: 100px;
     color: #ffffff;
-    position: relative;
-    z-index: 000;
 
 }
 
-header>h1{
-    display: inline-block;
-    margin: 30px;
-}
 
-header>span#menu>a{
+
+header>div#teste>div#menu>a{
     text-decoration: none;
     color: white;
     background-color:#662929;
@@ -45,28 +40,43 @@ header>span#menu>a{
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);
 }
 
-header>span#menu{
+header>div#teste>div#menu{
     display:inline-block;
     font-size: 1em;
-    width: 80vw;
     text-align: right;
-    cursor: default;
+    vertical-align: top;
+    margin-top: 40px;
 }
 
-header>span#menu>a:hover{
+header>div#teste>div#menu>a:hover{
     background-color: #3b1818;
-
     transition: .5s ease;
 
 }
 
+div#teste{
+    width: 40vw;
+    text-align: right;
+    display: inline-block;
+
+}
+div#titulo{
+    width: 50vw;
+    text-align: left;
+    display: inline-block;
+vertical-align: top;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
 main{
-    display:inline-block;
-    width: 900px;
+    display:block;
+    width: 56.5em;
     padding: 30px;
     background-color: white;
     overflow: hidden;
-}
+    margin-left: auto;
+    margin-right: auto;}
 main>section>h1{
     font-size: 3.2em;
     display: inline-block;
@@ -102,7 +112,8 @@ section.desativo{
     opacity: 1;
     transition: width 2s, height 2s, opacity 3s;
     overflow: hidden;
-    height: 0px;
+    display: none;
+
 }
 
 
@@ -188,6 +199,7 @@ div.val{
     border-radius: 10px;
     color: #700D09;
 
+
 }
 
 span.agepeso{
@@ -196,7 +208,7 @@ margin-left: 25em;
 
 div#navegacao.mostrar{
    display: inline-block;
-    height: 800px;
+    height: 50.18em;
     width: 100px;
     opacity: 1;
     background-color: #662929;
@@ -205,20 +217,29 @@ div#navegacao.mostrar{
     text-align: center;
     align-self: center;
     overflow: scroll;
-    vertical-align: top;
+    margin-right: 15px;
+    margin-left: 15px;
+
+
+    
 }
 
 div#navegacao.esconder{
     display: inline-block;
-    height: 60px;
-    width: 100px;
+    height: 150px;
+    width: 6.27em;
     opacity: 1;
     background-color: #662929;
-    border-radius: 0px 0px 50% 50%;
+    border-radius: 0px 0px 30% 30%;
     overflow: hidden;
     text-align: center;
     transition: 1s;
     vertical-align: top;
+    margin-right: 15px;
+    margin-left: 15px;
+
+    vertical-align: text-bottom;
+    
 }
 
 div#navegacao>img.icons{
@@ -267,14 +288,14 @@ p#p3{
 }
 
 span#menu{
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 2.5em;
     margin-bottom: 10px;
     margin-top: 30px;
 }
 
 span#menu:hover{
-    color: white;
+    color: #B3423E;
     cursor: pointer;
 }
 
@@ -283,3 +304,10 @@ iframe{
     border-radius: 15px;
     }
     
+div#navegacao>img{
+    width: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
