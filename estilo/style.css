@@ -86,12 +86,15 @@ main{
     z-index: 444;
     margin-left: auto;
     margin-right: auto;
+
+    
 }
 
 main>p{
     font-size: 1.2em;
     text-align: justify;
     margin-bottom: 20px;
+    line-height: 2em;
 }
 p#curiosidade{
     position: absolute;
