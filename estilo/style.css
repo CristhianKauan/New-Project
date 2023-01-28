@@ -135,7 +135,7 @@ img{
 
 img#secundaria{
     display: inline-block;
-    width: 235px;
+    width: 215px;
     position: relative;
     z-index: 444;
     margin-left: 10px;
@@ -238,7 +238,7 @@ div#tabela>p{
 }
 
 p#p3{
-    width: 276px;
+    width: 256px;
     display: inline-block;
     font-size: 1.2em;
     margin-left: 20px;
