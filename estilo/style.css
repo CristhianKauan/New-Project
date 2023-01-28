@@ -48,7 +48,7 @@ header>span#menu>a{
 header>span#menu{
     display:inline-block;
     font-size: 1em;
-    width: 1600PX;
+    width: 80vw;
     text-align: right;
     cursor: default;
 }
@@ -89,7 +89,7 @@ main{
 }
 
 main>p{
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: justify;
     margin-bottom: 20px;
 }
@@ -120,9 +120,9 @@ p#p1,p#p2,p#p3{
 }
 
 footer{
-    background:#376666 ;
+    background:#993d3de8 ;
     width: 100vw;
-    color: #2BB3B3;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -229,6 +229,7 @@ div#tabela{
     border-radius: 15px;
     vertical-align: top;
     margin-bottom: 15px;
+    display: inline-block;
 }
 
 div#tabela>p{
@@ -243,9 +244,10 @@ div#tabela>p{
 p#p3{
     width: 450px;
     display: inline-block;
-
     margin-left: 20px;
-
+    position: absolute;
+    z-index: 111;
+    font-size: 1.1em;
 }
 
 span#menu{
@@ -266,6 +268,19 @@ div#fixed{
 }
 
 span#final>img{
-    width: 430px;
-    margin-left: 10px;
+    width: 400px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    display: inline-block;
+    position: relative;
+    z-index: 444;
+    vertical-align: bottom;
+
 }
+
+iframe{
+margin-left: 180px;
+
+border-radius: 15px;
+}
+
