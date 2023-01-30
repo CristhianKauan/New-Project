@@ -23,7 +23,7 @@ c++
 }
 
 function trocar(x){
-
+  var capa = document.getElementById('capa')
   var axolote= document.getElementById('axolote')
   var leao= document.getElementById('leao')
   var panda= document.getElementById('panda')
@@ -35,8 +35,42 @@ function trocar(x){
   var coruja = document.getElementById('coruja')
 
   switch (x){
+    case 0:
+      capa.classList.add('ativo')
+      capa.classList.remove('desativo')
 
+      axolote.classList.add('desativo')
+      axolote.classList.remove('ativo')
+
+      leao.classList.add('desativo')
+      leao.classList.remove('ativo')
+
+      panda.classList.add('desativo')
+      panda.classList.remove('ativo')
+
+      cavalo.classList.add('desativo')
+      cavalo.classList.remove('ativo')
+
+      coelho.classList.add('desativo')
+      coelho.classList.remove('ativo')
+
+      aranha.classList.add('desativo')
+      aranha.classList.remove('ativo')
+
+      abelha.classList.add('desativo')
+      abelha.classList.remove('ativo')
+
+      arraia.classList.add('desativo')
+      arraia.classList.remove('ativo')
+
+      coruja.classList.add('desativo')
+      coruja.classList.remove('ativo')
+      break
+  
     case 1:
+      capa.classList.add('desativo')
+      capa.classList.remove('ativo')
+
       axolote.classList.add('ativo')
       axolote.classList.remove('desativo')
 
@@ -66,6 +100,10 @@ function trocar(x){
       break
 
       case 2:
+
+        capa.classList.add('desativo')
+        capa.classList.remove('ativo')
+
         axolote.classList.add('desativo')
         axolote.classList.remove('ativo')
   
@@ -95,6 +133,9 @@ function trocar(x){
         break
 
         case 3:
+          capa.classList.add('desativo')
+          capa.classList.remove('ativo')
+
           axolote.classList.add('desativo')
           axolote.classList.remove('ativo')
     
@@ -124,6 +165,9 @@ function trocar(x){
           break
 
           case 4:
+            capa.classList.add('desativo')
+            capa.classList.remove('ativo')
+
             axolote.classList.add('desativo')
             axolote.classList.remove('ativo')
       
@@ -153,6 +197,9 @@ function trocar(x){
             break
 
             case 5:
+              capa.classList.add('desativo')
+              capa.classList.remove('ativo')
+
               axolote.classList.add('desativo')
               axolote.classList.remove('ativo')
         
@@ -182,6 +229,9 @@ function trocar(x){
               break
 
               case 6:
+                capa.classList.add('desativo')
+                capa.classList.remove('ativo')
+
                 axolote.classList.add('desativo')
                 axolote.classList.remove('ativo')
           
@@ -211,6 +261,9 @@ function trocar(x){
                 break
 
                 case 7:
+                  capa.classList.add('desativo')
+                  capa.classList.remove('ativo')
+
                   axolote.classList.add('desativo')
                   axolote.classList.remove('ativo')
             
@@ -240,6 +293,9 @@ function trocar(x){
                   break
         
                   case 8:
+                    capa.classList.add('desativo')
+                    capa.classList.remove('ativo')
+
                     axolote.classList.add('desativo')
                     axolote.classList.remove('ativo')
               
@@ -269,6 +325,9 @@ function trocar(x){
                   break
 
                   case 9:
+                    capa.classList.add('desativo')
+                    capa.classList.remove('ativo')
+
                     axolote.classList.add('desativo')
                     axolote.classList.remove('ativo')
               

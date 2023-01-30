@@ -75,7 +75,10 @@ main{
     background-color: white;
     margin-left: auto;
     margin-right: auto;
-    padding: 30px;
+    padding: 20px;
+    border: 0.5em solid #662929;
+
+
 }
 
 main>section>h1{
@@ -108,9 +111,13 @@ section.ativo{
     width:56.5em ;
     height: 128em;
     overflow: hidden;
+    background-color: white;
+
 
 }
 section.ativo#capa{
+    opacity: 1;
+    transition: 1.5s ease-in-out;
     width: 54.5em;
     height: 61em;
     background: url(../imagens/back/9\ \(2\).jpg);
@@ -119,7 +126,24 @@ section.ativo#capa{
     text-align: center;
     color: white;
     text-shadow: 1px 1px 1px black;
+    overflow: hidden;
+}
 
+section.desativo#capa{
+    opacity: 1;
+    transition:2s;
+    height: 0px; 
+
+    transition: 1.5s ease-in-out;
+}
+
+section.desativo#capa>h1{
+    opacity: 1;
+    transition:2s;
+    height: 0px; 
+    overflow: hidden;
+    transition: 1.5s ease-in-out;
+    
 }
 
 section.ativo#capa>h1{
@@ -141,6 +165,7 @@ section.ativo#capa>p{
 }
 
 section.desativo{
+
     opacity: 1;
     transition:2s;
     height: 0px; 
@@ -180,7 +205,7 @@ p#curiosidade{
 }
 
 footer{
-    margin-top: 40px;
+
     background:#993d3de8 ;
     width: 100vw;
     color: #ffffff;
