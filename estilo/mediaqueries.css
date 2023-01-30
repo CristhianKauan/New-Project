@@ -108,7 +108,7 @@
 
     header{
         height: 100px;
-        margin-bottom: 50px;
+        margin-bottom: 25px;
     }
 main{
     width:25.2em;
@@ -167,6 +167,13 @@ p#curiosidade{
 
 img{
     width: 400px ;
+}
+
+img#secundaria{
+    width: 370px;
+    margin-left: 10px;
+    border-radius: 10px;
+
 }
 video#secundaria{
     width: 390px;
