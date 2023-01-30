@@ -48,5 +48,57 @@
 
 @media screen and  (max-width:1055px){
 
+    header{
+        height: 130px;
+    }
+    
+    header>div#titulo{
+        transform: translate(25px, 30px);
+    }
+    
+    header>div#teste>div#menu{
+        width: 100vw;
+        display: block;
+        margin-top: 0px;
+    }
+    
+    div#teste{
+        width: 100vw;
+        text-align: right;
+    }
+
+    div#navegacao{
+        display: block;
+        margin-left: 0px;
+        width: 100vw;
+        transform: translateY(none);
+        margin-top: 100px;
+        transition: .5s;
+    }
+
+    div#navegacao.mostrar{
+        height: 8em;
+        
+    }
+
+    div#navegacao.esconder{
+        height: 40px;
+        border-radius: 0px 0px 10px  10px;
+    }
+    div#navegacao>img{
+        display: none;
+    }
+
+    div#navegacao>img.icons{
+        display: inline;
+        width: 55px;
+    }
+
+    span#menu{
+        display: block;
+        margin-top: 2px;
+        margin-bottom: 4px;
+    }
+
     
 }
