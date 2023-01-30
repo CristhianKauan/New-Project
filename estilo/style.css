@@ -29,11 +29,21 @@ header{
 header>div#teste>div#menu>a{
     text-decoration: none;
     color: white;
-    background-color:#662929;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 10px 0px 10px 0px;
     margin-left: 10px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);
+    background-image: linear-gradient(transparent 0%,transparent 90%, #E55C5C 90%,  #E55C5C 100%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x:right ;
+    transition:  background-size 300ms,  background-color 300ms;
+}
+header>div#teste>div#menu>a:hover{
+
+    background-color: #3b1818;
+
+    background-size: 100% 100%;
+    background-position: left;
 }
 header>div#titulo{
     font-size: 1.5em;
@@ -54,10 +64,7 @@ header>div#teste>div#menu{
     margin-top: 40px;
 }
 
-header>div#teste>div#menu>a:hover{
-    background-color: #3b1818;
-    transition: .5s ease;
-}
+
 
 div#teste{
     width: 40vw;
@@ -182,7 +189,6 @@ img{
 img#secundaria{
     width: 530px;
     margin-left: 10px;
-
     border-radius: 10px;
 }
 video#secundaria{
@@ -276,6 +282,7 @@ p#p3{
     display: inline-block;
     margin-left: 20px;
     font-size: 1.1em;
+    vertical-align: top;
 }
 
 span#menu{
@@ -302,3 +309,4 @@ div#navegacao>img{
     margin-right: auto;
     margin-top: 10px;
 }
+
