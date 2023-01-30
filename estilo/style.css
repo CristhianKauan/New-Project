@@ -74,9 +74,10 @@ main{
     width: 56.5em;
     padding: 30px;
     background-color: white;
-    overflow: hidden;
     margin-left: auto;
-    margin-right: auto;}
+    margin-right: auto;
+}
+
 main>section>h1{
     font-size: 3.2em;
     display: inline-block;
@@ -103,24 +104,20 @@ main>section>h1,h2{
 
 section.ativo{
     opacity: 1;
-    transition: 1s;
+    transition: 1.5s ease-in-out;
     width:56.5em ;
+    height: 128em;
 }
-
-
 
 section.desativo{
-    opacity: 0;
-    transition: width 2s, height 2s, opacity 3s;
-    display: none;
-    width: 0em;
+    opacity: 1;
+    transition:2s;
+    height: 0px; 
+    overflow: hidden;
+    transition: 1.5s ease-in-out;
 }
 
-div#transicao{
-    background-color: white;
-    width: 100vw;
-    height: 100vh;
-}
+
 
 p#p1,p#p2,p#p3{
 
