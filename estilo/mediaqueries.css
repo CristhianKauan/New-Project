@@ -50,6 +50,7 @@
 
     header{
         height: 130px;
+        margin-bottom: 50px;
     }
     
     header>div#titulo{
@@ -101,4 +102,75 @@
     }
 
     
+}
+
+@media screen and  (max-width:750px){
+main{
+    width:25.2em;
+}
+
+section.ativo{
+    height: 230em;
+}
+
+div.pi{
+    width: 70px;
+    height: 40px;
+    background-color: #B3423E;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.479);
+    font-size: 2em;
+}
+
+div.val{
+    display: inline-block;
+    width: 70px;
+    height: 80;
+    margin-left: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.205);
+    border-radius: 10px;
+    color: #700D09;
+}
+
+span.agepeso{
+margin-left: 2em;
+}
+
+p#curiosidade{
+    background-color: #ca535391;
+    border-radius: 15px;
+    padding: 30px;
+    display: block;
+    margin-left: 15px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #662929;
+    text-align: justify;
+    width:300px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+video#secundaria{
+    display: inline-block;
+    width: 390px;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 45px;
+}
+
+p#p3{
+    width: 400px;
+    display: inline-block;
+    margin-left: 0px;
+    font-size: 1.1em;
+    vertical-align: top;
+}
+
+iframe{
+    margin-left: 0px;
+    width: 400px;
+    height: 250px;
+}
 }
