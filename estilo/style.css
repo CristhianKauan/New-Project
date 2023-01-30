@@ -1,11 +1,9 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
-    
 }
 
 body{
@@ -26,10 +24,7 @@ header{
     width: 100vw;
     height: 100px;
     color: #ffffff;
-
 }
-
-
 
 header>div#teste>div#menu>a{
     text-decoration: none;
@@ -43,29 +38,6 @@ header>div#teste>div#menu>a{
 header>div#titulo{
     font-size: 1.5em;
     font-style: italic;
-}
-
-header>div#teste>div#menu{
-    display:inline-block;
-    font-size: 1em;
-    text-align: right;
-    vertical-align: top;
-    margin-top: 40px;
-}
-
-header>div#teste>div#menu>a:hover{
-    background-color: #3b1818;
-    transition: .5s ease;
-
-}
-
-div#teste{
-    width: 40vw;
-    text-align: right;
-    display: inline-block;
-
-}
-div#titulo{
     width: 50vw;
     text-align: left;
     display: inline-block;
@@ -75,6 +47,23 @@ div#titulo{
     font-family: 'Solitreo', cursive;
 }
 
+header>div#teste>div#menu{
+    display:inline-block;
+    font-size: 1em;
+    vertical-align: top;
+    margin-top: 40px;
+}
+
+header>div#teste>div#menu>a:hover{
+    background-color: #3b1818;
+    transition: .5s ease;
+}
+
+div#teste{
+    width: 40vw;
+    text-align: right;
+    display: inline-block;
+}
 
 main{
     display:block;
@@ -89,13 +78,14 @@ main{
 main>section>h1{
     font-size: 3.2em;
     display: inline-block;
+    color: #662929;
 }
 
 main>section>h2{
     font-size: 1em;
     font-style: italic;
-    font-weight: normal;
     margin-bottom: 20px;
+    color: #662929;
 }
 
 main>section>p{
@@ -105,9 +95,6 @@ main>section>p{
     line-height: 2em;
 }
 
-main>section>h1,h2{
-    color: #662929;
-}
 main>section{
     transition: 1.5s ease-in-out;
     overflow: hidden;
@@ -153,11 +140,8 @@ section.desativo#capa{
 }
 
 section.desativo{
-    transition:2s;
     height: 0px; 
 }
-
-
 
 p#p1,p#p2,p#p3{
     display: inline-block;
@@ -168,7 +152,6 @@ div#division{
     width: 540px;
     height: 525px;
     vertical-align: top;
-
 }
 
 p#curiosidade{
@@ -186,14 +169,6 @@ p#curiosidade{
     font-weight: bold;
 }
 
-footer{
-
-    background:#993d3de8 ;
-    width: 100vw;
-    color: #ffffff;
-    text-align: center;
-}
-
 ::-webkit-scrollbar{
     display: none;
 }
@@ -205,12 +180,10 @@ img{
 }
 
 img#secundaria{
-    display: inline-block;
     width: 530px;
     margin-left: 10px;
     margin-top: 20px;
     border-radius: 10px;
-
 }
 video#secundaria{
     display: inline-block;
@@ -239,58 +212,40 @@ div.val{
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.205);
     border-radius: 10px;
     color: #700D09;
-
-
 }
 
 span.agepeso{
 margin-left: 25em;
 }
 
-div#navegacao.mostrar{
-   display: inline-block;
-    height: 50.18em;
-    width: 100px;
-    opacity: 1;
+div#navegacao{
+    display: inline-block;
     background-color: #662929;
-    border-radius: 0px 0px 15px 15px;
+    width: 6.27em;
     transition: 1s;
     text-align: center;
-    align-self: center;
+    margin-right:15px;
+    margin-left:15px;
+}
+
+div#navegacao.mostrar{
+    height: 50.18em;
+    border-radius: 0px 0px 15px 15px;
     overflow: scroll;
-    margin-right: 15px;
-    margin-left: 15px;
-
-
-    
+     
 }
 
 div#navegacao.esconder{
-    display: inline-block;
     height: 150px;
-    width: 6.27em;
-    opacity: 1;
-    background-color: #662929;
     border-radius: 0px 0px 30% 30%;
     overflow: hidden;
-    text-align: center;
-    transition: 1s;
-    vertical-align: top;
-    margin-right: 15px;
-    margin-left: 15px;
-
-    vertical-align: text-bottom;
-    
 }
 
 div#navegacao>img.icons{
-    display: inline-block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
-    width: 70px;
-    height: 70px;
-    opacity: 1;
+    width: 80px;
     transition: 0.3s;
 }
 
@@ -307,18 +262,13 @@ div#tabela{
     background-color: #B3423E;
     font-size: 1.7em;
     border-radius: 15px;
-    vertical-align: top;
     margin-bottom: 15px;
-    display: inline-block;
 }
 
 div#tabela>p{
     font-size: .6em;
     padding: 30px;
    font-family: 'Courier New', Courier, monospace;
-   display: inline-block;
-
-   
 }
 
 p#p3{
