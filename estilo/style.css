@@ -112,11 +112,11 @@ section.ativo{
     height: 128em;
     overflow: hidden;
     background-color: white;
-
+    margin-top: 20px;
 
 }
 section.ativo#capa{
-    opacity: 1;
+
     transition: 1.5s ease-in-out;
     width: 54.5em;
     height: 61em;
@@ -130,21 +130,33 @@ section.ativo#capa{
 }
 
 section.desativo#capa{
-    opacity: 1;
+    background: url(../imagens/back/9\ \(2\).jpg);
+    background-size: cover;
     transition:2s;
     height: 0px; 
-
     transition: 1.5s ease-in-out;
+    text-align: center;
+    border: 1em solid #662929;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 section.desativo#capa>h1{
-    opacity: 1;
-    transition:2s;
-    height: 0px; 
-    overflow: hidden;
-    transition: 1.5s ease-in-out;
-    
+    color: rgb(255, 255, 255);
+    margin-top:8em ;
 }
+section.desativo#capa>h2{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    text-align: center;
+}
+section.desativo#capa>p{
+    margin-top: 22em;
+    text-align: center;
+}
+
 
 section.ativo#capa>h1{
     color: rgb(255, 255, 255);
