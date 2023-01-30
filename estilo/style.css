@@ -78,14 +78,12 @@ div#titulo{
 
 main{
     display:block;
-    width: 56.5em;
     background-color: white;
+    border: 0.5em solid #662929;
+    width: 56.5em;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    border: 0.5em solid #662929;
-
-
 }
 
 main>section>h1{
@@ -98,7 +96,6 @@ main>section>h2{
     font-style: italic;
     font-weight: normal;
     margin-bottom: 20px;
-
 }
 
 main>section>p{
@@ -111,94 +108,59 @@ main>section>p{
 main>section>h1,h2{
     color: #662929;
 }
-
-section.ativo{
-    opacity: 1;
+main>section{
     transition: 1.5s ease-in-out;
-    width:56.5em ;
-    height: 128em;
     overflow: hidden;
-    background-color: white;
-    margin-top: 20px;
-
 }
-section.ativo#capa{
+section.ativo{
+    height: 128em;
+    margin-top: 20px;
+}
 
-    transition: 1.5s ease-in-out;
-    width: 54.5em;
-    height: 61em;
+section#capa{
     background: url(../imagens/back/9\ \(2\).jpg);
     background-size: cover;
     border: 1em solid #662929;
+    transition: 2s;
     text-align: center;
     color: white;
     text-shadow: 1px 1px 1px black;
-    overflow: hidden;
+}
+
+section#capa>h1{
+    color: rgb(255, 255, 255);
+    margin-top:8em ;
+}
+section#capa>h2{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+section#capa>p{
+    margin-top: 22em;
+    text-align: center;
+}
+
+section.ativo#capa{
+    height: 65em;
 }
 
 section.desativo#capa{
-    background: url(../imagens/back/9\ \(2\).jpg);
-    background-size: cover;
-    transition:2s;
     height: 0px; 
-    transition: 1.5s ease-in-out;
-    text-align: center;
-    border: 1em solid #662929;
     border-radius: 15px;
-    overflow: hidden;
-}
-
-section.desativo#capa>h1{
-    color: rgb(255, 255, 255);
-    margin-top:8em ;
-    
-}
-section.desativo#capa>h2{
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-    text-align: center;
-}
-section.desativo#capa>p{
-    margin-top: 22em;
-    text-align: center;
-}
-
-
-section.ativo#capa>h1{
-    color: rgb(255, 255, 255);
-    margin-top:8em ;
-}
-section.ativo#capa>h2{
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-    text-align: center;
-
-}
-
-section.ativo#capa>p{
-    margin-top: 22em;
-    text-align: center;
 }
 
 section.desativo{
-
-    opacity: 1;
     transition:2s;
     height: 0px; 
-    overflow: hidden;
-    transition: 1.5s ease-in-out;
 }
 
 
 
 p#p1,p#p2,p#p3{
-
     display: inline-block;
-
 }
 
 div#division{
@@ -255,7 +217,7 @@ video#secundaria{
     width: 540px;
     margin-left: 10px;
     border-radius: 10px;
-    margin-top: 60px;
+    margin-top: 45px;
 }
 
 div.pi{
