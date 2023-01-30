@@ -73,7 +73,7 @@
         margin-left: 0px;
         width: 100vw;
         transform: translateY(none);
-        margin-top: 100px;
+        margin-top: 50px;
         transition: .5s;
     }
 
@@ -119,19 +119,14 @@ header>div#teste>div#menu{
     display: block;
     margin-top: 0px;
     text-align: left;
+    transform: translateY(-40px);
+    margin-left: 290px;
 }
 header>div#teste>div#menu>a{
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    border-radius: 10px 0px 10px 0px;
-    margin-left: 10px;
-    background-image: linear-gradient(transparent 0%,transparent 90%, #E55C5C 90%,  #E55C5C 100%);
-    background-repeat: no-repeat;
-    background-size: 0% 100%;
-    background-position-x:right ;
-    transition:  background-size 300ms,  background-color 300ms;
-    margin-bottom: 20px;
+    display: inline-block;
+    margin-left: 0px;
+    margin-bottom: 1px;
+    width: 60px;
 }
 section.ativo{
     height: 220em;
@@ -199,5 +194,33 @@ header>div#titulo{
     margin-left: 0px;
     margin-top: 10px;
     font-family: 'Water Brush', cursive;
+}
+
+section#capa>h1{
+    color: rgb(255, 255, 255);
+    margin-top:7em ;
+    font-size: 2em;
+}
+section#capa>h2{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    font-size: .5em;
+}
+
+section#capa>p{
+    margin-top: 18em;
+    text-align: center;
+    font-size: 1em;
+}
+
+section.ativo#capa{
+    height: 40em;
+}
+
+section.desativo#capa{
+    height: 0px; 
+    border-radius: 15px;
 }
 }
