@@ -109,13 +109,14 @@
     header{
         height: 100px;
         margin-bottom: 25px;
+        width:29em;
     }
 main{
     width:25.2em;
 }
 header>div#teste>div#menu{
     margin-left: 250px;
-    width:25.2em;
+    width: 40vw;
     display: block;
     margin-top: 0px;
     text-align: left;
