@@ -18,7 +18,7 @@
     }
 
     div#navegacao{
-        width:29em;
+        width: 25vw;
         margin-left: 350px;
         transform: translateY(-90px);
     }
@@ -130,7 +130,7 @@ header>div#teste>div#menu>a{
     width: 60px;
 }
 section.ativo{
-    height: 240em;
+    height: 220em;
 }
 
 div.pi{
@@ -215,5 +215,10 @@ section.ativo#capa{
 
 section.desativo#capa{
     height: 0px; 
+}
+div#navegacao{
+
+    width:29em;
+
 }
 }
