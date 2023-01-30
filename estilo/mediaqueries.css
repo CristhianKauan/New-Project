@@ -105,10 +105,34 @@
 }
 
 @media screen and  (max-width:750px){
+
+    header{
+        height: 100px;
+        margin-bottom: 50px;
+    }
 main{
     width:25.2em;
 }
-
+header>div#teste>div#menu{
+    margin-left: 250px;
+    width: 40vw;
+    display: block;
+    margin-top: 0px;
+    text-align: left;
+}
+header>div#teste>div#menu>a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 0px 10px 0px;
+    margin-left: 10px;
+    background-image: linear-gradient(transparent 0%,transparent 90%, #E55C5C 90%,  #E55C5C 100%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x:right ;
+    transition:  background-size 300ms,  background-color 300ms;
+    margin-bottom: 20px;
+}
 section.ativo{
     height: 220em;
 }
@@ -167,9 +191,13 @@ iframe{
 }
 
 div#division{
-
-
     height: 405px;
+}
 
+header>div#titulo{
+    font-size: .9em;
+    margin-left: 0px;
+    margin-top: 10px;
+    font-family: 'Water Brush', cursive;
 }
 }
