@@ -147,11 +147,6 @@ div.val{
     width: 70px;
     height: 80;
     margin-left: 10px;
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.205);
-    border-radius: 10px;
-    color: #700D09;
 }
 
 span.agepeso{
@@ -161,7 +156,6 @@ margin-left: 2em;
 p#curiosidade{
     margin-left: 25px;
     margin-top: 5px;
-
     margin-bottom: 10px;
     width:300px;
 }
@@ -178,7 +172,6 @@ img#secundaria{
 }
 video#secundaria{
     width: 390px;
-
     margin-top: 5px;
 }
 
@@ -201,16 +194,13 @@ header>div#titulo{
     font-size: .9em;
     margin-left: 0px;
     margin-top: 10px;
-    font-family: 'Water Brush', cursive;
 }
 
 section#capa>h1{
-    color: rgb(255, 255, 255);
     margin-top:7em ;
     font-size: 2em;
 }
 section#capa>h2{
-    color: white;
     margin-left: auto;
     margin-right: auto;
     width: 200px;
@@ -219,7 +209,6 @@ section#capa>h2{
 
 section#capa>p{
     margin-top: 18em;
-    text-align: center;
     font-size: 1em;
 }
 
@@ -229,6 +218,5 @@ section.ativo#capa{
 
 section.desativo#capa{
     height: 0px; 
-    border-radius: 15px;
 }
 }
