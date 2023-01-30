@@ -1,0 +1,100 @@
+@media screen and  (max-width:1400px){
+
+
+    header{
+        height: 200px;
+    }
+    
+    header>div#teste>div#menu>a{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        border-radius: 10px 0px 10px 0px;
+        margin-left: 10px;
+        background-image: linear-gradient(transparent 0%,transparent 90%, #E55C5C 90%,  #E55C5C 100%);
+        background-repeat: no-repeat;
+        background-size: 0% 100%;
+        background-position-x:right ;
+        transition:  background-size 300ms,  background-color 300ms;
+        
+        
+    }
+    header>div#teste>div#menu>a:hover{
+    
+        background-color: #3b1818;
+    
+        background-size: 100% 100%;
+        background-position: left;
+    }
+    header>div#titulo{
+        font-size: 1.5em;
+        width: 50vw;
+        text-align: left;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 30px;
+        margin-top: 20px;
+        font-family: 'Water Brush', cursive;
+    }
+    
+    header>div#teste>div#menu{
+        display:inline-block;
+        font-size: 1em;
+        vertical-align: top;
+        margin-top: 40px;
+    }
+    div#teste{
+        width: 100vw;
+        display: inline-block;
+        text-align: right;
+
+    }
+
+    div#navegacao{
+    background-color: #662929;
+    width: 300px;
+    transform: translateY(-90px);
+}
+
+div#navegacao.mostrar{
+    height: 41em;
+
+
+}
+
+div#navegacao.esconder{
+    height: 150px;
+    border-radius: 0px 0px 10px  10px;
+}
+
+span#menu{
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+span#menu:hover{
+    color: #B3423E;
+    cursor: pointer;
+}
+
+div#navegacao>img.icons{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    width: 70px;
+    transition: 0.3s;
+}
+
+img.icons:hover{
+    scale: 1.2;
+    cursor: pointer;
+}
+
+
+
+
+}

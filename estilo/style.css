@@ -16,6 +16,7 @@ body{
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
+
   }
 
 header{
@@ -40,6 +41,7 @@ header>div#teste>div#menu>a{
     background-size: 0% 100%;
     background-position-x:right ;
     transition:  background-size 300ms,  background-color 300ms;
+    
 }
 header>div#teste>div#menu>a:hover{
 
