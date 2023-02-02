@@ -74,7 +74,6 @@ div#navegacao{
     display: inline-block;
     background-color: #662929;
     width: 6.27em;
-    margin-right:15px;
     margin-left:15px;
     text-align: center;
     transition: 1s;
@@ -87,17 +86,14 @@ div#navegacao.mostrar{
 }
 
 div#navegacao.esconder{
-    height: 150px;
+    height: 10em;
     border-radius: 0px 0px 30% 30%;
     overflow: hidden;
 }
 
 div#navegacao>img{
-    display: block;
     width: 70px;
     margin-top: 10px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 span#menu{
