@@ -122,7 +122,6 @@ img.icons:hover{
 }
 
 main{
-    display:block;
     background-color: white;
     width: 56.5em;
     border: 0.5em solid #662929;
@@ -156,7 +155,7 @@ main>section>p{
 }
 
 section#capa{
-    background: url(../imagens/back/9\ \(2\).jpg);
+    background: #3b1818 url(../imagens/back/9\ \(2\).jpg);
     background-size: cover;
     border: 1em solid #662929;
     text-align: center;
@@ -220,7 +219,6 @@ div.val{
     margin-left: 10px;
     text-align: center;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.205);
-    
 }
 
 div.pi{
@@ -272,7 +270,6 @@ div#tabela{
     border-radius: 15px;
     margin-bottom: 15px;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1em;
     text-align: center;
     color: white;
 }
