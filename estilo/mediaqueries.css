@@ -83,4 +83,16 @@ div#titulo{
         margin-top: 17em;
     }
 
+    div#navegacao>img{
+        width: 3em;
+        margin-top: 2px;
+    }
+
+    div#navegacao.esconder{
+        height: 12em;
+        text-align: right;
+        width: 26em;
+        margin-top: 3em;
+    }
+
 }
