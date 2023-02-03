@@ -168,4 +168,18 @@ iframe{
     height: 12em;
 }
 
+main>section{
+    overflow: hidden;
+    transition: 0s;
+}
+
+section#capa{
+    transition: 0s;
+}
+
+img.icons:hover{
+    scale: .8;
+    cursor: pointer;
+}
+
 }
