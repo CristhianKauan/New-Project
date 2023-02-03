@@ -51,3 +51,36 @@ div#titulo{
 }
 
 }
+
+
+@media screen and (max-width:768px){
+    main{
+        width: 36.5em;
+    }
+
+    main>section>h1{
+        font-size: 2.2em;
+    }
+    
+    main>section>h2{
+        font-size: .7em;
+    }
+
+    main>section>p{
+
+        font-size: .8em;
+    }
+    
+    section.ativo#capa{
+        height: 45em;
+    }
+
+    section#capa>h2{
+        width: 300px;
+    }
+    
+    section#capa>p{
+        margin-top: 17em;
+    }
+
+}
