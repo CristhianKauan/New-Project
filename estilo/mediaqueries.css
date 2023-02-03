@@ -32,6 +32,17 @@ div#navegacao.esconder{
     margin-right: 10px;
 }
 
+div#navegacao.mostrar{
+    height: 12em;
+    margin-top: 1.4em;
+    background-color: rgba(165, 42, 42, 0);
+    border-radius: 0px;
+    text-align: right;
+    width: 35em;
+    transform: translateY(-11em);
+    margin-right: 10px;
+}
+
 div#menu{
     display: block;
     text-align: left;
@@ -79,6 +90,12 @@ img.icons:hover{
         width: 25em;
         margin-top: 2em;
     }
+
+    div#navegacao.mostrar{
+        height: 12em;
+        width: 25em;
+        margin-top: 2em;
+    }
     
     div#menu{
         display: inline-block;
@@ -92,9 +109,7 @@ img.icons:hover{
     }
     img.icons:hover{
         scale: .8;
-        cursor: pointer;
     }
-    
     
 
 main{
