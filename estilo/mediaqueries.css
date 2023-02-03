@@ -91,7 +91,7 @@ div#titulo{
 
     div#navegacao.esconder{
         display: inline-block;
-        height: 12em;
+        height: 13em;
         text-align: right;
         width: 10em;
         margin-top: 2em;
@@ -170,7 +170,6 @@ div#tabela{
 }
 
 p#p3{
-    display: inline-block;
     width: auto;
     margin-left: 0px;
     font-size: .8em;
@@ -178,7 +177,6 @@ p#p3{
 }
 
 iframe{
-
     width: 20em;
     height: 12em;
 }
