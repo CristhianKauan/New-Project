@@ -11,7 +11,7 @@ div#titulo{
     margin-top: 20px;
     margin-left: 55px;
     padding: 10px;
-    background-color: #e55c5c83;
+
     border-radius: 50px;
     width: 240px;
     transition: 1s;
@@ -78,15 +78,17 @@ img.icons:hover{
 
     header{
         height: 180px;
+
     }
     
     div#titulo{
-        margin-top: 20px;
-        margin-left: 55px;
+        margin-top: 50px;
+        margin-left: 40px;
         padding: 10px;
-        background-color: #e55c5c83;
+
         border-radius: 50px;
         width: 240px;
+
         transition: 1s;
     }
     
@@ -95,50 +97,50 @@ img.icons:hover{
     }
 
     div#navegacao{
-        display: block;
-        width: 36em;
+        background-color: #993d3d;
     }
     
     div#navegacao.esconder{
-        height: 3em;
+        height: 12em;
 
-        background-color: rgba(165, 42, 42, 0);
-        border-radius: 0px;
-        text-align: center;
-
-        transform: translateY(-4.3em);
+        border-radius: 0px  0px  80px 80px;
+        text-align: right;
+        margin-right: 0px;
+        margin-right:1em;
         margin-left: 0px;
+        width: 30em;
+        transform: translateY(-10em);
     }
     
     div#navegacao.mostrar{
-        height: 16em;
-        background-color: rgba(165, 42, 42, 0);
-        border-radius: 10px;
+        height: 14em;
+        border-radius: 0px;
         text-align: center;
-
-        transform: translateY(-4.3em);
         margin-right: 10px;
         margin-right: 0px;
         margin-left: 0px;
+        width: 100vw;
+
     }
     
     div#menu{
         display: inline-block;
-        margin-right: 4em;
-        transform: translateY(-5em);
+        margin-right: 3em;
+        transform: translateY(-9em);
     }
     
     span#menu{
-        display: block;
+        display: none;
         margin-top: 0px;
     }
     
     img#flor{
         height: 0px;
+        width: 0px;
     }
     
     div#navegacao>img{
-        width: 4em;
+        width: 2.8em;
         margin-top: 10px; 
         display: inline-block;
     }
