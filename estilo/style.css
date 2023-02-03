@@ -200,10 +200,12 @@ section>p{
 
 section.ativo{
     margin-top: 20px;
+    transition: 1s;
 }
 
 section.desativo{
     height: 0px; 
+    transition: 1s;
 }
 
 span.agepeso{
@@ -252,13 +254,13 @@ p#curiosidade{
 }
 
 img#secundaria{
-    width: 530px;
+    width: 450px;
     border-radius: 10px;
     margin-left: 15px;
 }
 
 video#secundaria{
-    width: 530px;
+    width: 480px;
     border-radius: 10px;
     margin-top: 45px;
     margin-left: 10px;
@@ -281,7 +283,7 @@ div#tabela>p{
 
 p#p3{
     display: inline-block;
-    width: 450px;
+    width: 400px;
     margin-left: 20px;
     font-size: 1.1em;
     vertical-align: top;
