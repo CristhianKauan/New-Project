@@ -148,7 +148,7 @@ p#curiosidade{
 
 img#secundaria{
     display: block;
-    width: 530px;
+    width: 20em;
     border-radius: 10px;
     margin-left: 1em;
 }
@@ -178,10 +178,9 @@ p#p3{
 }
 
 iframe{
-    display: block;
-    border-radius: 15px;
-    margin-right: auto;
-    margin-left: auto;
+
+    width: 20em;
+    height: 12em;
 }
 
 }
