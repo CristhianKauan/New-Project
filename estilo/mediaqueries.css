@@ -76,19 +76,8 @@ img.icons:hover{
     
     div#navegacao.esconder{
         height: 12em;
-        width: 30em;
+        width: 25em;
         margin-top: 2em;
-    }
-    
-    div#navegacao.mostrar{
-        height: 14em;
-        border-radius: 0px;
-        text-align: center;
-        margin-right: 10px;
-        margin-right: 0px;
-        margin-left: 0px;
-        width: 100vw;
-
     }
     
     div#menu{
@@ -97,20 +86,9 @@ img.icons:hover{
         transform: translateY(-9em);
     }
     
-    span#menu{
-        display: none;
-        margin-top: 0px;
-    }
-    
-    img#flor{
-        height: 0px;
-        width: 0px;
-    }
-    
     div#navegacao>img{
         width: 2.8em;
         margin-top: 10px; 
-        display: inline-block;
     }
     img.icons:hover{
         scale: .8;
