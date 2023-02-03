@@ -265,7 +265,7 @@
     }
     
     section.ativo{
-        height: 230em;
+        height: 218em;
     }
     
     section.desativo{
@@ -298,14 +298,6 @@
     
     div#tabela{
         width: 400px;
-    }
-    
-    
-    p#p3{
-        display: inline-block;
-        width: auto;
-        margin-left: 20px;
-     
     }
     
     iframe{
