@@ -1,21 +1,21 @@
-@media screen and (max-width:1360px){
+@media screen and (max-width:1290px){
     
 
 header{
-    height: 200px;
+    height: 180px;
     background: #993d3de8;
-    background-size: 5em;
-    background-position: 8em center;
-    }
-
-
-div#navegacao{
-    margin-left: 0px;
 }
 
+div#titulo{
+    margin-top: 20px;
+    margin-left: 55px;
+    padding: 10px;
+    background-color: #e55c5c83;
+    border-radius: 50px;
+    width: 240px;
+}
 
 div#teste{
-    text-align: auto;
     width: 100vw;
 }
 
@@ -26,32 +26,33 @@ div#navegacao.esconder{
     border-radius: 0px;
     text-align: right;
     width: 35em;
-    transform: translateY(-10em);
+    transform: translateY(-11em);
     margin-right: 10px;
 }
+
 div#menu{
     display: block;
     text-align: left;
 }
+
 span#menu{
     display: none;
 }
+
 img#flor{
     display: none;
 }
-
 
 div#navegacao>img{
     width: 4em;
     margin-top: 10px;
 }
 
-div#titulo{
-    margin-left: 55px;
 }
 
-}
+@media screen and (max-width:905px){
 
+}
 @media screen and (max-width:768px){
     main{
         width: 90vw;
