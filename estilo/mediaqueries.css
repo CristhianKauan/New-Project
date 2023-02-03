@@ -162,26 +162,26 @@ video#secundaria{
 }
 
 div#tabela{
-    display: inline-block;
-    background-color: #B3423E;
-    width: 400px;
-    border-radius: 15px;
-    margin-bottom: 15px;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    color: white;
-}
+    display: block;
+    width: 20em;
+    margin-right: auto;
+    margin-left: auto;
 
-div#tabela>p{
-    padding: 30px;
 }
 
 p#p3{
     display: inline-block;
-    width: 450px;
-    margin-left: 20px;
-    font-size: 1.1em;
-    vertical-align: top;
+    width: auto;
+    margin-left: 0px;
+    font-size: .8em;
+
+}
+
+iframe{
+    display: block;
+    border-radius: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 }
