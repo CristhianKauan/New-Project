@@ -55,15 +55,15 @@ div#titulo{
 
 @media screen and (max-width:768px){
     main{
-        width: 36.5em;
+        width: 24em;
     }
 
     main>section>h1{
-        font-size: 2.2em;
+        font-size: 1.5em;
     }
     
     main>section>h2{
-        font-size: .7em;
+        font-size: .4em;
     }
 
     main>section>p{
@@ -72,11 +72,11 @@ div#titulo{
     }
     
     section.ativo#capa{
-        height: 45em;
+        height: 35em;
     }
 
     section#capa>h2{
-        width: 300px;
+        width: 200px;
     }
     
     section#capa>p{
