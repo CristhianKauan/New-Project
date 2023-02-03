@@ -95,7 +95,7 @@
         div#menu{
             display: inline-block;
             margin-right: 3em;
-            transform: translateY(-9em);
+            transform: translate(30em, -2em);
         }
         
         div#navegacao>img{
