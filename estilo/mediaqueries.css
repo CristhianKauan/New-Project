@@ -189,6 +189,7 @@ p#curiosidade{
 }
 
 img#secundaria{
+    display: block;
     width: 38em;
     margin-top: 1em;
     margin-left: auto;
