@@ -3,29 +3,51 @@
 
 header{
     height: 200px;
-    margin-bottom: 5em;
-}
+    background: #993d3de8;
+    background-size: 5em;
+    background-position: 8em center;
+    }
+
 
 div#navegacao{
-    width: 100vw;
     margin-left: 0px;
 }
 
 
 div#teste{
-    display: block;
-    text-align: left;
+    text-align: auto;
+    width: 100vw;
 }
 
 div#navegacao.esconder{
+    height: 12em;
+    margin-top: 1em;
+    background-color: rgba(165, 42, 42, 0);
     border-radius: 0px;
-    height: 7em;
+    text-align: right;
+    width: 35em;
+    transform: translateY(-10em);
+    margin-right: 10px;
 }
-
+div#menu{
+    display: block;
+    text-align: left;
+}
 span#menu{
     display: none;
 }
 img#flor{
     display: none;
 }
+
+
+div#navegacao>img{
+    width: 4em;
+    margin-top: 10px;
+}
+
+div#titulo{
+    margin-left: 55px;
+}
+
 }
