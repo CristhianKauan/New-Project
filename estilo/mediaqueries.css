@@ -55,7 +55,7 @@ div#titulo{
 
 @media screen and (max-width:768px){
     main{
-        width: 22em;
+        width: 100vw;
     }
 
     main>section>h1{
