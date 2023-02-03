@@ -212,98 +212,99 @@
     }
     
     
-    @media screen and (max-width:660px){
-    
-        header{
-            height: 250px;
-    
+        @media screen and (max-width:660px){
+        
+            header{
+                height: 250px;
+        
+            }
+            
+            div#titulo{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 0px;
+            }
+            
+            div#navegacao.esconder{
+                transform: translate(-2em, -4em );
+                margin-top: 3em;
+            }
+        
+            div#navegacao.mostrar{
+                transform: translate(-2em, -4em );
+                margin-top: 3em;
+            }
+            
+            div#menu{
+                margin-right: 4em;
+                transform: translateY(-2em);
+            }
+        
+        main>section>h1{
+            font-size: 1.5em;
         }
         
-        div#titulo{
+        main>section>h2{
+            font-size: .5em;
+        }
+        
+        section.ativo#capa{
+            height: 40em;
+        }
+        
+        section#capa>h1{
+            margin-top:11em ;
+        }
+        
+        section#capa>h2{
+            width: 200px;
+        }
+        
+        section#capa>p{
+            margin-top: 14em;
+            font-size: 1em;
+        }
+        
+        section.ativo{
+            height: 218em;
+        }
+        
+        section.desativo{
+            height: 0px; 
+        }
+        
+        span.agepeso{
+            margin-left: 10em;
+        }
+        
+        section>img{
+        
+            width: 350px;
+        }
+        
+        p#curiosidade{
+            width:30em;
+        }
+        
+        img#secundaria{
             display: block;
+            width: 25em;
             margin-left: auto;
             margin-right: auto;
-            margin-top: 0px;
         }
         
-        div#navegacao.esconder{
-            transform: translate(-2em, -4em );
-        }
-    
-        div#navegacao.mostrar{
-            transform: translate(-2em, -4em );
+        video#secundaria{
+            width: 25.2em;
         }
         
-        div#menu{
-            margin-right: 4em;
-            transform: translateY(-2em);
+        div#tabela{
+            width: 400px;
         }
-    
-    main>section>h1{
-        font-size: 1.5em;
-    }
-    
-    main>section>h2{
-        font-size: .5em;
-    }
-    
-    section.ativo#capa{
-        height: 40em;
-    }
-    
-    section#capa>h1{
-        margin-top:11em ;
-    }
-    
-    section#capa>h2{
-        width: 200px;
-    }
-    
-    section#capa>p{
-        margin-top: 14em;
-        font-size: 1em;
-    }
-    
-    section.ativo{
-        height: 218em;
-    }
-    
-    section.desativo{
-        height: 0px; 
-    }
-    
-    span.agepeso{
-        margin-left: 10em;
-    }
-    
-    section>img{
-    
-        width: 350px;
-    }
-    
-    p#curiosidade{
-        width:30em;
-    }
-    
-    img#secundaria{
-        display: block;
-        width: 25em;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    video#secundaria{
-        width: 25.2em;
-    }
-    
-    div#tabela{
+        
+        iframe{
         width: 400px;
-    }
-    
-    iframe{
-    width: 400px;
-    height: 250px;
-    }
-        
-    }
+        height: 250px;
+        }   
+}
     
