@@ -23,18 +23,7 @@ div#teste{
 
 div#navegacao.esconder{
     height: 12em;
-    margin-top: 1em;
-    background-color: rgba(165, 42, 42, 0);
-    border-radius: 0px;
-    text-align: right;
-    width: 35em;
-    transform: translateY(-11em);
-    margin-right: 10px;
-}
-
-div#navegacao.mostrar{
-    height: 12em;
-    margin-top: 1em;
+    margin-top: 1.4em;
     background-color: rgba(165, 42, 42, 0);
     border-radius: 0px;
     text-align: right;
@@ -59,7 +48,7 @@ img#flor{
 
 div#navegacao>img{
     width: 4em;
-    margin-top: 10px; 
+    margin-bottom: 0px;
 }
 img.icons:hover{
     scale: .8;
@@ -78,38 +67,17 @@ img.icons:hover{
 
     header{
         height: 180px;
-
     }
     
     div#titulo{
         margin-top: 50px;
         margin-left: 40px;
-        padding: 10px;
-
-        border-radius: 50px;
-        width: 240px;
-
-        transition: 1s;
-    }
-    
-    div#teste{
-        width: 100vw;
-    }
-
-    div#navegacao{
-        background-color: #993d3d;
     }
     
     div#navegacao.esconder{
         height: 12em;
-
-        border-radius: 0px  0px  80px 80px;
-        text-align: right;
-        margin-right: 0px;
-        margin-right:1em;
-        margin-left: 0px;
         width: 30em;
-        transform: translateY(-10em);
+        margin-top: 2em;
     }
     
     div#navegacao.mostrar{
