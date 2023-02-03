@@ -4,6 +4,7 @@
 header{
     height: 180px;
     background: #993d3de8;
+    transition: 1s;
 }
 
 div#titulo{
@@ -13,10 +14,12 @@ div#titulo{
     background-color: #e55c5c83;
     border-radius: 50px;
     width: 240px;
+    transition: 1s;
 }
 
 div#teste{
     width: 100vw;
+    
 }
 
 div#navegacao.esconder{
@@ -33,6 +36,7 @@ div#navegacao.esconder{
 div#menu{
     display: block;
     text-align: left;
+    margin-top: 30px;
 }
 
 span#menu{
@@ -45,7 +49,11 @@ img#flor{
 
 div#navegacao>img{
     width: 4em;
-    margin-top: 10px;
+    margin-top: 10px; 
+}
+img.icons:hover{
+    scale: .8;
+    cursor: pointer;
 }
 
 }
