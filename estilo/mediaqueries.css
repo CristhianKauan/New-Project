@@ -55,7 +55,7 @@ div#titulo{
 
 @media screen and (max-width:768px){
     main{
-        width: 24em;
+        width: 22em;
     }
 
     main>section>h1{
@@ -86,13 +86,18 @@ div#titulo{
     div#navegacao>img{
         width: 2em;
         margin-top: 1px;
+        display: inline-block;
     }
 
     div#navegacao.esconder{
+        display: inline-block;
         height: 12em;
         text-align: right;
         width: 10em;
         margin-top: 2em;
+    }
+    div#navegacao>img#flor{
+        display: none;
     }
 
     div#menu>a{
@@ -101,8 +106,83 @@ div#titulo{
 
     img.icons{
         margin-bottom: 5px;
-
     }
     
+    
+span.agepeso{
+    margin-left: 8em;
+}
+
+div.val{
+    width: 50px;
+    height: 40;
+    border-radius: 10px;
+    margin-left: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.205);
+}
+
+div.pi{
+    background-color: #B3423E;
+    width: 50px;
+    height: 20px;
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.479);
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+p#curiosidade{
+    display: block;
+    width:250px;
+    margin-left: 3em;
+    margin-top: 1em;
+
+}
+
+img#secundaria{
+    display: block;
+    width: 530px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+video#secundaria{
+    display: block;
+    width: 430px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#tabela{
+    display: inline-block;
+    background-color: #B3423E;
+    width: 400px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+}
+
+div#tabela>p{
+    padding: 30px;
+}
+
+p#p3{
+    display: inline-block;
+    width: 450px;
+    margin-left: 20px;
+    font-size: 1.1em;
+    vertical-align: top;
+}
 
 }
