@@ -281,7 +281,7 @@
         }
         
         section.ativo{
-            height: 218em;
+            height: auto;
         }
         
         section.desativo{
@@ -309,7 +309,7 @@
         }
         
         video#secundaria{
-            width: 25.2em;
+            width: 350px;
         }
         
         div#tabela{
