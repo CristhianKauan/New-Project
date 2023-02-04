@@ -231,7 +231,7 @@
                 margin-right: auto;
                 margin-left: auto;
                 transform: translateY(-4em);
-                width: 26em;
+                width: 24.5em;
             }
         
             div#navegacao.mostrar{
@@ -246,7 +246,7 @@
                 transform: translateY(-2em);
                 display: block;
                 margin-left: auto;
-                margin-right: 90px;
+                margin-right: auto;
                 text-align: center;
             }
 
