@@ -83,13 +83,13 @@
         div#navegacao.esconder{
             margin-top: 2em;
             height: 12em;
-            width: 28em;
+            width: 26em;
 
         }
     
         div#navegacao.mostrar{
             height: 12em;
-            width: 30em;
+            width: 26em;
         }
         
         div#menu{
@@ -136,7 +136,7 @@
     }
     
     section.ativo{
-        height: 205em;
+        height: 200em;
         margin-top: 20px;
     }
     
@@ -149,14 +149,14 @@
     }
     
     div.val{
-        width: 50px;
-        height: 40;
+        width: 100px;
+        height: 80;
     }
     
     div.pi{
-        width: 50px;
-        height: 20px;
-        font-size: 1em;
+        width: 100px;
+        height: 40px;
+        font-size: 2em;
     }
     
     section>img{
@@ -186,6 +186,7 @@
     }
     
     video#secundaria{
+        display: block;
         width: 38.5em;
         border-radius: 10px;
         margin-top: 1em;
