@@ -1,24 +1,17 @@
-
 var c=1
 
 function  ocultar(){
-
   var icons = document.getElementById('navegacao')
 
   if (c%2==0) {
 
     icons.classList.add('esconder')
     icons.classList.remove('mostrar')
-
-
-} 
-
-else {
-
-  icons.classList.remove('esconder')
-  icons.classList.add('mostrar')
-
-} 
+  } 
+    else {
+      icons.classList.remove('esconder')
+      icons.classList.add('mostrar')
+    } 
 c++
 }
 
@@ -99,267 +92,262 @@ function trocar(x){
       coruja.classList.remove('ativo')
       break
 
-      case 2:
+    case 2:
+      capa.classList.add('desativo')
+      capa.classList.remove('ativo')
 
-        capa.classList.add('desativo')
-        capa.classList.remove('ativo')
+      axolote.classList.add('desativo')
+      axolote.classList.remove('ativo')
+  
+      leao.classList.add('ativo')
+      leao.classList.remove('desativo')
+  
+      panda.classList.add('desativo')
+      panda.classList.remove('ativo')
+  
+      cavalo.classList.add('desativo')
+      cavalo.classList.remove('ativo')
 
-        axolote.classList.add('desativo')
-        axolote.classList.remove('ativo')
+      coelho.classList.add('desativo')
+      coelho.classList.remove('ativo')
   
-        leao.classList.add('ativo')
-        leao.classList.remove('desativo')
+      aranha.classList.add('desativo')
+      aranha.classList.remove('ativo')
   
-        panda.classList.add('desativo')
-        panda.classList.remove('ativo')
+      abelha.classList.add('desativo')
+      abelha.classList.remove('ativo')
   
-        cavalo.classList.add('desativo')
-        cavalo.classList.remove('ativo')
+      arraia.classList.add('desativo')
+      arraia.classList.remove('ativo')
   
-        coelho.classList.add('desativo')
-        coelho.classList.remove('ativo')
-  
-        aranha.classList.add('desativo')
-        aranha.classList.remove('ativo')
-  
-        abelha.classList.add('desativo')
-        abelha.classList.remove('ativo')
-  
-        arraia.classList.add('desativo')
-        arraia.classList.remove('ativo')
-  
-        coruja.classList.add('desativo')
-        coruja.classList.remove('ativo')
-        break
+      coruja.classList.add('desativo')
+      coruja.classList.remove('ativo')
+      break
 
-        case 3:
-          capa.classList.add('desativo')
-          capa.classList.remove('ativo')
+    case 3:
+      capa.classList.add('desativo')
+      capa.classList.remove('ativo')
 
-          axolote.classList.add('desativo')
-          axolote.classList.remove('ativo')
+      axolote.classList.add('desativo')
+      axolote.classList.remove('ativo')
     
-          leao.classList.add('desativo')
-          leao.classList.remove('ativo')
+      leao.classList.add('desativo')
+      leao.classList.remove('ativo')
     
-          panda.classList.add('ativo')
-          panda.classList.remove('desativo')
+      panda.classList.add('ativo')
+      panda.classList.remove('desativo')
     
-          cavalo.classList.add('desativo')
-          cavalo.classList.remove('ativo')
+      cavalo.classList.add('desativo')
+      cavalo.classList.remove('ativo')
     
-          coelho.classList.add('desativo')
-          coelho.classList.remove('ativo')
+      coelho.classList.add('desativo')
+      coelho.classList.remove('ativo')
     
-          aranha.classList.add('desativo')
-          aranha.classList.remove('ativo')
+      aranha.classList.add('desativo')
+      aranha.classList.remove('ativo')
     
-          abelha.classList.add('desativo')
-          abelha.classList.remove('ativo')
+      abelha.classList.add('desativo')
+      abelha.classList.remove('ativo')
     
-          arraia.classList.add('desativo')
-          arraia.classList.remove('ativo')
+      arraia.classList.add('desativo')
+      arraia.classList.remove('ativo')
     
-          coruja.classList.add('desativo')
-          coruja.classList.remove('ativo')
-          break
+      coruja.classList.add('desativo')
+      coruja.classList.remove('ativo')
+      break
 
-          case 4:
-            capa.classList.add('desativo')
-            capa.classList.remove('ativo')
+    case 4:
+      capa.classList.add('desativo')
+      capa.classList.remove('ativo')
 
-            axolote.classList.add('desativo')
-            axolote.classList.remove('ativo')
+      axolote.classList.add('desativo')
+      axolote.classList.remove('ativo')
       
-            leao.classList.add('desativo')
-            leao.classList.remove('ativo')
+      leao.classList.add('desativo')
+      leao.classList.remove('ativo')
       
-            panda.classList.add('desativo')
-            panda.classList.remove('ativo')
+      panda.classList.add('desativo')
+      panda.classList.remove('ativo')
       
-            cavalo.classList.add('ativo')
-            cavalo.classList.remove('desativo')
+      cavalo.classList.add('ativo')
+      cavalo.classList.remove('desativo')
       
-            coelho.classList.add('desativo')
-            coelho.classList.remove('ativo')
+      coelho.classList.add('desativo')
+      coelho.classList.remove('ativo')
       
-            aranha.classList.add('desativo')
-            aranha.classList.remove('ativo')
+      aranha.classList.add('desativo')
+      aranha.classList.remove('ativo')
       
-            abelha.classList.add('desativo')
-            abelha.classList.remove('ativo')
+      abelha.classList.add('desativo')
+      abelha.classList.remove('ativo')
       
-            arraia.classList.add('desativo')
-            arraia.classList.remove('ativo')
+      arraia.classList.add('desativo')
+      arraia.classList.remove('ativo')
       
-            coruja.classList.add('desativo')
-            coruja.classList.remove('ativo')
-            break
+      coruja.classList.add('desativo')
+      coruja.classList.remove('ativo')
+      break
 
-            case 5:
-              capa.classList.add('desativo')
-              capa.classList.remove('ativo')
+    case 5:
+      capa.classList.add('desativo')
+      capa.classList.remove('ativo')
 
-              axolote.classList.add('desativo')
-              axolote.classList.remove('ativo')
+      axolote.classList.add('desativo')
+      axolote.classList.remove('ativo')
         
-              leao.classList.add('desativo')
-              leao.classList.remove('ativo')
+      leao.classList.add('desativo')
+      leao.classList.remove('ativo')
         
-              panda.classList.add('desativo')
-              panda.classList.remove('ativo')
+      panda.classList.add('desativo')
+      panda.classList.remove('ativo')
         
-              cavalo.classList.add('desativo')
-              cavalo.classList.remove('ativo')
+      cavalo.classList.add('desativo')
+      cavalo.classList.remove('ativo')
         
-              coelho.classList.add('ativo')
-              coelho.classList.remove('desativo')
+      coelho.classList.add('ativo')
+      coelho.classList.remove('desativo')
         
-              aranha.classList.add('desativo')
-              aranha.classList.remove('ativo')
+      aranha.classList.add('desativo')
+      aranha.classList.remove('ativo')
         
-              abelha.classList.add('desativo')
-              abelha.classList.remove('ativo')
+      abelha.classList.add('desativo')
+      abelha.classList.remove('ativo')
         
-              arraia.classList.add('desativo')
-              arraia.classList.remove('ativo')
+      arraia.classList.add('desativo')
+      arraia.classList.remove('ativo')
         
-              coruja.classList.add('desativo')
-              coruja.classList.remove('ativo')
-              break
+      coruja.classList.add('desativo')
+      coruja.classList.remove('ativo')
+      break
 
-              case 6:
-                capa.classList.add('desativo')
-                capa.classList.remove('ativo')
+    case 6:
+      capa.classList.add('desativo')
+      capa.classList.remove('ativo')
 
-                axolote.classList.add('desativo')
-                axolote.classList.remove('ativo')
+      axolote.classList.add('desativo')
+      axolote.classList.remove('ativo')
           
-                leao.classList.add('desativo')
-                leao.classList.remove('ativo')
+      leao.classList.add('desativo')
+      leao.classList.remove('ativo')
           
-                panda.classList.add('desativo')
-                panda.classList.remove('ativo')
+      panda.classList.add('desativo')
+      panda.classList.remove('ativo')
+      
+      cavalo.classList.add('desativo')
+      cavalo.classList.remove('ativo')
+      
+      coelho.classList.add('desativo')
+      coelho.classList.remove('ativo')
           
-                cavalo.classList.add('desativo')
-                cavalo.classList.remove('ativo')
+      aranha.classList.add('ativo')
+      aranha.classList.remove('desativo')
           
-                coelho.classList.add('desativo')
-                coelho.classList.remove('ativo')
+      abelha.classList.add('desativo')
+      abelha.classList.remove('ativo')
           
-                aranha.classList.add('ativo')
-                aranha.classList.remove('desativo')
-          
-                abelha.classList.add('desativo')
-                abelha.classList.remove('ativo')
-          
-                arraia.classList.add('desativo')
-                arraia.classList.remove('ativo')
-          
-                coruja.classList.add('desativo')
-                coruja.classList.remove('ativo')
-                break
+      arraia.classList.add('desativo')
+      arraia.classList.remove('ativo')
+        
+      coruja.classList.add('desativo')
+      coruja.classList.remove('ativo')
+      break
 
-                case 7:
-                  capa.classList.add('desativo')
-                  capa.classList.remove('ativo')
+    case 7:
+      capa.classList.add('desativo')
+      capa.classList.remove('ativo')
 
-                  axolote.classList.add('desativo')
-                  axolote.classList.remove('ativo')
+      axolote.classList.add('desativo')
+      axolote.classList.remove('ativo')
             
-                  leao.classList.add('desativo')
-                  leao.classList.remove('ativo')
+      leao.classList.add('desativo')
+      leao.classList.remove('ativo')
             
-                  panda.classList.add('desativo')
-                  panda.classList.remove('ativo')
+      panda.classList.add('desativo')
+      panda.classList.remove('ativo')
             
-                  cavalo.classList.add('desativo')
-                  cavalo.classList.remove('ativo')
+      cavalo.classList.add('desativo')
+      cavalo.classList.remove('ativo')
             
-                  coelho.classList.add('desativo')
-                  coelho.classList.remove('ativo')
+      coelho.classList.add('desativo')
+      coelho.classList.remove('ativo')
             
-                  aranha.classList.add('desativo')
-                  aranha.classList.remove('ativo')
+      aranha.classList.add('desativo')
+      aranha.classList.remove('ativo')
             
-                  abelha.classList.add('ativo')
-                  abelha.classList.remove('desativo')
+      abelha.classList.add('ativo')
+      abelha.classList.remove('desativo')
             
-                  arraia.classList.add('desativo')
-                  arraia.classList.remove('ativo')
+      arraia.classList.add('desativo')
+      arraia.classList.remove('ativo')
             
-                  coruja.classList.add('desativo')
-                  coruja.classList.remove('ativo')
-                  break
+      coruja.classList.add('desativo')
+      coruja.classList.remove('ativo')
+      break
         
-                  case 8:
-                    capa.classList.add('desativo')
-                    capa.classList.remove('ativo')
+    case 8:
+      capa.classList.add('desativo')
+      capa.classList.remove('ativo')
 
-                    axolote.classList.add('desativo')
-                    axolote.classList.remove('ativo')
+      axolote.classList.add('desativo')
+      axolote.classList.remove('ativo')
               
-                    leao.classList.add('desativo')
-                    leao.classList.remove('ativo')
+      leao.classList.add('desativo')
+      leao.classList.remove('ativo')
               
-                    panda.classList.add('desativo')
-                    panda.classList.remove('ativo')
+      panda.classList.add('desativo')
+      panda.classList.remove('ativo')
               
-                    cavalo.classList.add('desativo')
-                    cavalo.classList.remove('ativo')
+      cavalo.classList.add('desativo')
+      cavalo.classList.remove('ativo')
               
-                    coelho.classList.add('desativo')
-                    coelho.classList.remove('ativo')
+      coelho.classList.add('desativo')
+      coelho.classList.remove('ativo')
               
-                    aranha.classList.add('desativo')
-                    aranha.classList.remove('ativo')
+      aranha.classList.add('desativo')
+      aranha.classList.remove('ativo')
               
-                    abelha.classList.add('desativo')
-                    abelha.classList.remove('ativo')
+      abelha.classList.add('desativo')
+      abelha.classList.remove('ativo')
               
-                    arraia.classList.add('ativo')
-                    arraia.classList.remove('desativo')
+      arraia.classList.add('ativo')
+      arraia.classList.remove('desativo')
               
-                    coruja.classList.add('desativo')
-                    coruja.classList.remove('ativo')
-                  break
+      coruja.classList.add('desativo')
+      coruja.classList.remove('ativo')
+      break
 
-                  case 9:
-                    capa.classList.add('desativo')
-                    capa.classList.remove('ativo')
+    case 9:
+      capa.classList.add('desativo')
+      capa.classList.remove('ativo')
 
-                    axolote.classList.add('desativo')
-                    axolote.classList.remove('ativo')
-              
-                    leao.classList.add('desativo')
-                    leao.classList.remove('ativo')
-              
-                    panda.classList.add('desativo')
-                    panda.classList.remove('ativo')
-              
-                    cavalo.classList.add('desativo')
-                    cavalo.classList.remove('ativo')
-              
-                    coelho.classList.add('desativo')
-                    coelho.classList.remove('ativo')
-              
-                    aranha.classList.add('desativo')
-                    aranha.classList.remove('ativo')
-              
-                    abelha.classList.add('desativo')
-                    abelha.classList.remove('ativo')
-              
-                    arraia.classList.add('desativo')
-                    arraia.classList.remove('ativo')
-              
-                    coruja.classList.add('ativo')
-                    coruja.classList.remove('desativo')
-                    break
-          
-    
-  
-
-  }
+      axolote.classList.add('desativo')
+      axolote.classList.remove('ativo')
+                  
+      leao.classList.add('desativo')
+      leao.classList.remove('ativo')
+                  
+      panda.classList.add('desativo')
+      panda.classList.remove('ativo')
+                  
+      cavalo.classList.add('desativo')
+      cavalo.classList.remove('ativo')
+                  
+      coelho.classList.add('desativo')
+      coelho.classList.remove('ativo')
+                  
+      aranha.classList.add('desativo')
+      aranha.classList.remove('ativo')
+                  
+      abelha.classList.add('desativo')
+      abelha.classList.remove('ativo')
+                  
+      arraia.classList.add('desativo')
+      arraia.classList.remove('ativo')
+                  
+      coruja.classList.add('ativo')
+      coruja.classList.remove('desativo')
+      break
+  } 
 }
 
 
