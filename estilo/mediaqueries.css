@@ -120,7 +120,7 @@
     }
     
     section.ativo#capa{
-        height: 60em;
+        height: auto;
     }
     
     section#capa>h1{
