@@ -58,7 +58,7 @@
         scale: .8;
         cursor: pointer;
     }
-    
+
 }
     
 @media screen and (max-width:905px){
@@ -103,7 +103,6 @@
         height: auto;
     }
 
-    
     section#capa>h2{
         width: 300px;
     }
@@ -149,7 +148,6 @@
     video#secundaria{
         display: block;
         width: 38.5em;
-        border-radius: 10px;
         margin-top: 1em;
         margin-left: auto;
         margin-right: auto;
@@ -162,60 +160,52 @@
         margin-right: auto;
     }
     
-    
     p#p3{
-        display: inline-block;
         width: auto;
         margin-left: 20px;
-     
-    }
-        
-    }
-    
-    
-        @media screen and (max-width:695px){
-        
-            header{
-                height: 250px;
-        
-            }
-            
-            div#titulo{
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                margin-top: 0px;
-            }
-            
-            div#navegacao.esconder{
-                display: block;
-                margin-top: 3em;
-                margin-right: auto;
-                margin-left: auto;
-                transform: translateY(-4em);
-                width: 24.5em;
-            }
-        
-            div#navegacao.mostrar{
-                    display: block;
-                    margin-top: 3em;
-                    margin-right: auto;
-                    margin-left: auto;
-                    transform: translateY(-4em);
-            }
-            
-            div#menu{
-                transform: translateY(-2em);
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                text-align: center;
-            }
+    }   
+}
 
-            div#navegacao>img{
-                width: 2.8em;
-                margin-top: 10px; 
-            }
+@media screen and (max-width:695px){
+        
+    header{
+        height: 250px;
+    }
+            
+    div#titulo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+    }
+
+    div#menu{
+        transform: translateY(-2em);
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    div#navegacao.mostrar{
+        display: block;
+        margin-top: 3em;
+        margin-right: auto;
+        margin-left: auto;
+        transform: translateY(-4em);
+    }
+            
+    div#navegacao.esconder{
+        display: block;
+        margin-top: 3em;
+        margin-right: auto;
+        margin-left: auto;
+        transform: translateY(-4em);
+    }
+
+    div#navegacao>img{
+        width: 2.8em;
+        margin-top: 10px; 
+    }
         
         main>section>h1{
             font-size: 1.5em;
