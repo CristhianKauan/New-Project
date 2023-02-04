@@ -316,10 +316,22 @@
         div#tabela{
             width: 360px;
         }
+
+        
+        div.val{
+            width: 50px;
+            height: 40;
+        }
+        
+        div.pi{
+            width: 50px;
+            height: 20px;
+            font-size: 1em;
+        }
         
         iframe{
-        width: 400px;
-        height: 250px;
+        width: 370px;
+        height: 200px;
         }   
 }
     
