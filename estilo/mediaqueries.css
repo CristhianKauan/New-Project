@@ -170,17 +170,20 @@
         
     header{
         height: 250px;
+        overflow: hidden;
     }
             
     div#titulo{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 0px;
+        padding: 0px;
+        text-align: center;
+        
     }
 
     div#menu{
-        transform: translateY(-2em);
+        transform: translateY(-1em);
         margin-left: auto;
         margin-right: auto;
         text-align: center;
@@ -191,7 +194,7 @@
         margin-top: 3em;
         margin-right: auto;
         margin-left: auto;
-        transform: translateY(-4em);
+        transform: translateY(-3.5em);
     }
             
     div#navegacao.esconder{
@@ -199,90 +202,84 @@
         margin-top: 3em;
         margin-right: auto;
         margin-left: auto;
-        transform: translateY(-4em);
+        transform: translateY(-3.5em);
     }
 
     div#navegacao>img{
         width: 2.8em;
-        margin-top: 10px; 
+    }
+
+    img.icons{
+        margin-bottom: 0px;
     }
         
-        main>section>h1{
-            font-size: 1.5em;
-        }
+    main>section>h1{
+        font-size: 1.5em;
+    }
         
-        main>section>h2{
-            font-size: .5em;
-        }
+    main>section>h2{
+        font-size: .5em;
+    }
         
-        section.ativo#capa{
-            height: 40em;
-        }
+    section.ativo#capa{
+        height: 40em;
+    }
         
-        section#capa>h1{
-            margin-top:11em ;
-        }
+    section#capa>h1{
+        margin-top:11em ;
+    }
         
-        section#capa>h2{
-            width: 200px;
-        }
+    section#capa>h2{
+        width: 200px;
+    }
         
-        section#capa>p{
-            margin-top: 14em;
-            font-size: 1em;
-        }
+    section#capa>p{
+        margin-top: 14em;
+        font-size: 1em;
+    }
         
-        section.ativo{
-            height: auto;
-        }
+    section.ativo{
+        height: auto;
+    }
+          
+    span.agepeso{
+        margin-left: 7em;
+    }
         
-        section.desativo{
-            height: 0px; 
-        }
+    section>img{
+        width: 350px;
+    }
         
-        span.agepeso{
-            margin-left: 7em;
-        }
-        
-        section>img{
-        
-            width: 350px;
-        }
-        
-        p#curiosidade{
-            width:350px;
-        }
-        
-        img#secundaria{
-            display: block;
-            width: 350px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        
-        video#secundaria{
-            width: 350px;
-        }
-        
-        div#tabela{
-            width: 360px;
-        }
+    p#curiosidade{
+        width:350px;
+    }
 
+    img#secundaria{
+        width: 350px;
+    }
         
-        div.val{
-            width: 50px;
-            height: 40;
-        }
+    video#secundaria{
+        width: 350px;
+    }
         
-        div.pi{
-            width: 50px;
-            height: 20px;
-            font-size: 1em;
-        }
+    div#tabela{
+        width: 360px;
+    }
+
+    div.val{
+        width: 50px;
+        height: 40;
+    }
         
-        iframe{
+    div.pi{
+        width: 50px;
+        height: 20px;
+        font-size: 1em;
+    }
+        
+    iframe{
         width: 370px;
         height: 200px;
-        }   
+    }   
 }
     

@@ -282,9 +282,10 @@ div#tabela>p{
 
 p#p3{
     display: inline-block;
-    width: 23em;
+    width: 24em;
     font-size: 1.1em;
     vertical-align: top;
+    margin-left: 10px;
 }
 
 iframe{
