@@ -58,7 +58,6 @@
         scale: .8;
         cursor: pointer;
     }
-
 }
     
 @media screen and (max-width:905px){
@@ -179,7 +178,6 @@
         margin-right: auto;
         padding: 0px;
         text-align: center;
-        
     }
 
     div#menu{

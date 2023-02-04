@@ -349,7 +349,3 @@ function trocar(x){
       break
   } 
 }
-
-
-
-
