@@ -100,7 +100,7 @@
     }
     
     section.ativo#capa{
-        height: auto;
+        height: 60em;
     }
 
     section#capa>h2{
@@ -221,6 +221,10 @@
         
     main>section>h2{
         font-size: .5em;
+    }
+
+    section.ativo#capa{
+        height: auto;
     }
         
     section#capa>h1{
